@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 800px){
   .header{
   z-index: 999;
     height: 60px;
@@ -83,5 +83,37 @@
   letter-spacing: 0.1px !important;
   font-size: 0.9rem !important;
   height: 1.2rem !important;
+}
+
+.post-images img{
+  margin-top: 1.2rem;
+  margin-left:9rem;
+
+  width: 11.5rem;
+  height: 7.5rem;
+  border-radius:0.5rem ;
+  object-fit: cover;
+  
+  opacity: 0.9;
+  
+  /* transform: scale(1.2); */
+}
+.nav-page{
+  margin-left: -3rem;
+}
+.entry_data{
+  
+  margin-top: 3rem !important;
+  margin-left: -17rem !important;
+}
+.content .entry_data li{
+  display: inline;
+  /* padding: 0; */
+  height: 1rem !important;
+  font-size: 12px;
+}
+.content .entry_data ul{
+  margin-top: 5rem;
+  width: 10rem;
 }
 }

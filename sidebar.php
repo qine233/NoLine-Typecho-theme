@@ -17,6 +17,7 @@
 </div> 
 
 </div>
+<section>
 <div class="sibar-data border-wid" style="display:sticky; margin-bottom:0;">
 <div class="sibar-data-abc" >
   <div class="sibar-data-a">
@@ -36,7 +37,7 @@
 <div class="archives"> <ul>
     <?php $this->widget('Widget_Metas_Category_List')
                ->parse('<li><a href="{permalink}">{name}</a>({count}) </li>'); ?>
-</ul>  </div>
+</ul>  </div></section>
 </div>
 </div>
 </div>
