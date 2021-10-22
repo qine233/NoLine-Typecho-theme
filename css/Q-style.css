@@ -499,8 +499,10 @@ display: none;
     list-style: none;
     margin-left: -25px;
 }
-.content .entry_title a:hover{
-    color: rgb(124, 124, 124);
+.content .entry_title a{
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+    font-weight: 200;
 }
 .content .entry_title{
     letter-spacing: 3px;
@@ -597,7 +599,7 @@ border-width: 3px;
     width:100%;
     /* height: 4.5rem; */
     background-color: rgba(230, 230, 230, 0.692);
-    
+    text-align: center;
     
 }
 /* 底部文字样式 */
