@@ -1,6 +1,7 @@
 <?php
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
+
 function themeConfig($logo) {
     $logoCss = new Typecho_Widget_Helper_Form_Element_Text('logoCss', NULL, NULL, _t('站点头像地址'), _t('在这里填入一个图片 URL 地址, 以修改头像'));
     $logo->addInput($logoCss);
@@ -20,7 +21,18 @@ function themeConfig($logo) {
     $logo->addInput($logocontactb);
     // 底部版权部分
   
-    
+
 
 }
 
+Typecho_Plugin::factory('admin/write-post.php')->bottom = array('Editor', 'edit');
+Typecho_Plugin::factory('admin/write-page.php')->bottom = array('Editor', 'edit');
+
+class Editor
+{
+    public static function edit()
+    {
+        echo "<script src='" . Helper::options()->themeUrl . '/editor/extend.js' . "'></script>";
+        echo "<script src='" . Helper::options()->themeUrl . '/editor/editor.js' . "'></script>";
+    }
+}

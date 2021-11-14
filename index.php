@@ -1,6 +1,6 @@
 <?php
 /**
- * “ 青益的第一款主题 ”
+ * “ 青益的第一款主题... ”
  * @package QINE
  * @author QINE
  * @link https://www.idkzr.com/
@@ -8,7 +8,7 @@
 ?>
 <?php $this->need('public/header.php'); ?>
 
-<div class="content-all">
+<div class="content-all" id="pjax-container">
 
 <?php $this->need('sidebar.php'); ?>
         <div class="content">
@@ -17,7 +17,7 @@
     <div class="post">
 	<h2 class="entry_title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
 	
- 
+    
  
 	<div class="entry_text" >
 	
@@ -62,9 +62,9 @@ Html;
     </div>
 <?php endwhile; ?>
 
-  </div>   <div class="nav-page"  >
-<!-- <?php $this->pageNav( ); ?>  -->
-<?php $this->pageNav('«', '»', -1, '...', 'wrapTag=ol&wrapClass=page-navigator&itemTag=li&textTag=span&currentClass=current&prevClass=prev&nextClass=next'); ?>
+  </div>   <div class="nav-page Page navigation"  >
+   <?php $this->pageNav('<', '>', 1, '...', array('wrapTag' => 'ul', 'wrapClass' => 'pagination' )  ); ?> 
+
 </div>
 
         </div>

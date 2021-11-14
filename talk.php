@@ -12,12 +12,12 @@
 
 <div class="content-all">
 <?php $this->need('sidebar.php'); ?>
-        <div class="content" style="background-color: white; margin-top:17px; width:55rem; margin-left:22rem;">
+        <div class="content">
              <!-- <div class="content-list"> -->
 		
-
+  
              <div class="comments-a">
-    <div id="comments-padding-talk">
+    <div id="comments-padding-talk"><div class="typecho-header">
 <!-- 判断设置是否允许对当前文章进行评论 -->
 <?php if($this->allow('comment')): ?>
  
@@ -47,7 +47,7 @@
  </div>
  </form> <?php endif; ?>
 <?php endif; ?>
-    </div>
+    </div></div>
  <div class="talk-list">
  
 <ol style="  display: flex; 
@@ -57,8 +57,8 @@
 	<li style="background-color: white ;
     font-weight:100;
 margin-top: 20px;
-min-height:10rem;
-width: 92%;
+min-height:15rem;
+width: 95%;
 margin-right:35px;
 list-style:none;
 border-radius:0.5rem;
@@ -76,10 +76,11 @@ padding:0.8rem;
             </div>
 	    <div class="comment_body"><?php $comments->content(); ?></div>
 	</li>  
-    <?php $comments->pageNav('« 前一页', '后一页 »'); ?>   
+     
 
 	<?php endwhile; ?>
-</ol>  
+</ol>   
+<!-- <?php $comments->pageNav('« 前一页', '后一页 »'); ?>  -->
  </div>
 </div>
 

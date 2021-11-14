@@ -6,8 +6,9 @@
             <h1 class="name"><?php $this->options->logoName(); ?></h1>
             <h2 class="name-talk">心若向阳，无畏伤悲</h2>
 <div class="button-flex">
-            <button class="a-left"><a target="_blank" href="<?php $this->options->logocontacta(); ?>">GITHUB</a></button>
-            <button  class="a-right"><a target="_blank" href="<?php $this->options->logocontactb(); ?>">关&nbsp 于</a></button></div>
+            <!-- <button class="a-left"><a target="_blank" href="<?php $this->options->logocontacta(); ?>">GITHUB</a></button>
+            <button  class="a-right"><a target="_blank" href="<?php $this->options->logocontactb(); ?>">关&nbsp 于</a></button> -->
+          </div>
             <div class="new-text ">
 
 <ul>
@@ -17,10 +18,14 @@
 </div> 
 
 </div>
-<section>
-<div class="sibar-data border-wid" style="display:sticky; margin-bottom:0;">
+<div class="sibar-all">
+<div class="sibar-data border-wid" >
+<div class="mac"><span>分类</span>
+    <i class="bg-primary"></i></div>
 <div class="sibar-data-abc" >
+
   <div class="sibar-data-a">
+  
 <?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
 <ul >
 <li><?php $stat->publishedPostsNum() ?></li><li>文章数</li>
@@ -36,10 +41,10 @@
 </ul> -->
 <div class="archives"> <ul>
     <?php $this->widget('Widget_Metas_Category_List')
-               ->parse('<li><a href="{permalink}">{name}</a>({count}) </li>'); ?>
-</ul>  </div></section>
+               ->parse('<li><a href="{permalink}">{name}</a> </li>'); ?>
+</ul>  </div>
 </div>
 </div>
 </div>
-
+</div>
   </div>
