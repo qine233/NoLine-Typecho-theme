@@ -63,7 +63,8 @@ Html;
 <?php endwhile; ?>
 
   </div>   <div class="nav-page"  >
-<?php $this->pageNav( ); ?>
+<!-- <?php $this->pageNav( ); ?>  -->
+<?php $this->pageNav('«', '»', -1, '...', 'wrapTag=ol&wrapClass=page-navigator&itemTag=li&textTag=span&currentClass=current&prevClass=prev&nextClass=next'); ?>
 </div>
 
         </div>
