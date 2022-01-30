@@ -1,4 +1,5 @@
 # NoLine-Typecho-theme
+2022.1.30日，新增miui13字体-misans，作为本主题字体，增加可读性
 ### 一款正在写的typecho简约风主题
 ## 目前进度
 - 🫓🫓电脑端
