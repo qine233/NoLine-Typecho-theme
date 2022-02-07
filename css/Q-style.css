@@ -8,6 +8,42 @@
 /*    url('../ttf/webmo..ttf') format('truetype'),*/
 /*    url('../ttf/webmo..svg') format('svg');*/
 /*}*/
+/*规范配色，后续配色根据此列进行纠正*/
+root:{
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --background: rgb(241, 241, 241);
+    --background-circle: #c0d0ff;
+}
+
 @font-face
 {
     font-family: webmo;
@@ -26,20 +62,13 @@
     justify-content: center;
     /* margin-top: 0; */
     background-color: rgb(241, 241, 241);
-}
+    background-image: radial-gradient(circle, #c0d0ff 1px, rgba(0,0,0,0) 1px);
+    background-size: 1.4rem 1.4rem;
+        }
 
 .container {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+
     margin-top: 0;
-    color: rgb(75, 75, 75);
-    /* margin-left: 11%; */
-    /* width: 100%; */
-    /* margin:0 auto */
-    /* height: 100%; */
-    /* padding: 0 10% 0 10%; */
-    /* padding: 0 50% 0 25%; */
 
 }
 
@@ -61,7 +90,6 @@
     width: 100%;
     height: 10%;
     box-shadow: 0 0.5rem 1rem rgb(18 38 63 / 5%);
-
     /* margin-top: -20px; */
     /* 设置flex */
     display: flex;
@@ -69,12 +97,6 @@
     justify-content: space-around;
     flex-wrap: wrap;
 
-    border-style: solid;
-    border-color: #e7e7e7;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 10px;
 }
 
 header h1 {
@@ -88,7 +110,7 @@ header h1 {
     border-right: none;
     border-top: none;
     border-left: none;
-    border-color: rgb(77, 137, 206);
+    border-color: #0d6efd;
     border-width: 3px;
     /* margin-left: 19rem; */
 }
