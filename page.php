@@ -13,26 +13,22 @@
              <div class="content-list-post">
                  <!-- 下面text部分 -->
 		<div class="typecho-text text-tream " >
-      
+
 
         </div>
        <div class="content-text-2 ">
         <?php $this->content(); ?>
-        <script >hljs.initHighlightingOnLoad();</script> 
+        <script >hljs.initHighlightingOnLoad();</script>
     </div>
-	</div>		
+	</div>
     </div> <?php $this->need('comments.php'); ?>
-    </div>  
- 
-    
-    <script src="https://cdn.jsdelivr.net/npm/vditor/dist/index.min.js"></script>
-             
+    </div>
 
-           </div> 
-</div></div>
+
+           </div>
 
       <?php $this->need('public/footer.php'); ?>
-        
 
-		
+
+
 </body>

@@ -38,4 +38,5 @@ echo $commentClass;
     </div>
 <?php } ?>
 </li>
+
 <?php } ?>

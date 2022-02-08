@@ -25,14 +25,49 @@ function themeConfig($logo) {
 
 }
 
-Typecho_Plugin::factory('admin/write-post.php')->bottom = array('Editor', 'edit');
-Typecho_Plugin::factory('admin/write-page.php')->bottom = array('Editor', 'edit');
-
-class Editor
-{
-    public static function edit()
-    {
-        echo "<script src='" . Helper::options()->themeUrl . '/editor/extend.js' . "'></script>";
-        echo "<script src='" . Helper::options()->themeUrl . '/editor/editor.js' . "'></script>";
-    }
+//统计多少天内发布的文章数量
+function getNumPosts($days){
+    $db = Typecho_Db::get();
+    $st_days= time()-$days*24*60*60;
+    $result = $db->fetchAll($db->select()->from('table.contents')
+        ->where('status = ?','publish')
+        ->where('type = ?', 'post')
+        ->where('modified >= ?', $st_days)
+        //统计时间
+    );
+    $total_posts = count($result);
+    return $total_posts;
 }
+
+ function get_comment_at($coid){
+    $db   = Typecho_Db::get();
+    $prow = $db->fetchRow($db->select('parent,status')->from('table.comments')
+        ->where('coid = ?', $coid));//当前评论
+    $mail = "";
+    $parent = @$prow['parent'];
+    if ($parent != "0") {//子评论
+        $arow = $db->fetchRow($db->select('author,status,mail')->from('table.comments')
+            ->where('coid = ?', $parent));//查询该条评论的父评论的信息
+        @$author = @$arow['author'];//作者名称
+        $mail = @$arow['mail'];
+        if(@$author && $arow['status'] == "approved"){//父评论作者存在且父评论已经审核通过
+            if (@$prow['status'] == "waiting"){
+                echo '<p class="commentReview">（评论正在审核中）</p>';
+            }
+            echo '<a href="#comment-' . $parent . '">@' . $author . '</a>';
+        }else{//父评论作者不存在或者父评论没有审核通过
+            if (@$prow['status'] == "waiting"){
+                echo '<p class="commentReview">（评论正在审核中）</p>';
+            }else{
+                echo '';
+            }
+        }
+
+    } else {//母评论，无需输出锚点链接
+        if (@$prow['status'] == "waiting"){
+            echo '<p class="commentReview">（评论正在审核中）</p>';
+        }else{
+            echo '';
+        }
+    }
+    }
