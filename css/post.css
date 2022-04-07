@@ -1,0 +1,163 @@
+/* .content-list li::before{
+    /* content:"★";
+    color:blue;
+    font-size:30px; */
+  }
+  .typecho-text li{
+      list-style: none;
+  } */
+  
+ .text-tream li{
+     list-style: url(https://cdn.jsdelivr.net/gh/zc1351856278/jsdever-ty@main/list-style.png);
+    
+     /* list-style: none; */
+     list-style-position: outside;
+ }
+ .content-text-2 img{
+     width: 500px;
+ }
+::-webkit-scrollbar{
+     width: 4px;
+    
+ }
+
+ ::-webkit-scrollbar-thumb{
+    background-color: rgb(104, 104, 104);
+     border-radius: 2rem;
+ }
+
+ .comments{
+     
+     width:60rem ;
+     /* height: 500px; */
+     /* margin-left: 9.5rem; */
+     margin-top: 1rem;
+    
+     padding: 1rem 0rem 1rem 1rem;  
+  
+     border-radius: 0.8rem;
+    }   
+ 
+
+ #comments-padding{
+    
+   padding-top: 0.2rem;
+     margin-left: 1.5rem;
+    width: 56rem;
+     background-color: white;
+     
+     border-radius: 0.8rem;
+ }
+
+ /* 评论按钮 */
+ .submit{
+     border-style: none;
+     height: 2rem;
+     color: white;
+     width: 5rem;
+     border-radius: 0.3rem;
+     background-color: rgb(0, 174, 255);
+
+ }
+
+ /* 针对表单进行布局尝试 */
+ .comments-3-text{
+     display: flex;
+     /* margin: 0 15%; */
+     justify-content: center;
+ }
+
+ /* 评论区标题 */
+ #response{
+    
+     text-align: center;
+     font-weight: 100;
+     font-size: 20px;
+     height: 3rem;
+     border-style: solid;
+     border-right: none;
+     border-top: none;
+     border-left: none;
+     border-width: 1px;
+     border-color: rgb(230, 230, 230);
+     
+ }
+
+ .comments-3-text .text{
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+     /* border-radius: 0.3rem; */
+     height: 1.9rem;
+     width: 9rem;
+     border-style: solid;
+     border-color: rgb(81, 185, 250);
+     border-bottom: none;
+     border-top: none;
+     border-right: none;
+    
+     background-color: rgb(237, 237, 238);
+     
+ }
+ .comments-3-text p{
+     margin-left: 6.5rem;
+     font-weight: 600;
+ }
+ 
+ .comments-3-text .text:hover{
+     border-style: none;
+    
+     border-style: solid;
+     border-color: rgb(250, 143, 81);
+     border-bottom: none;
+     border-top: none;
+     border-right: none;
+ }
+
+ .talk-content .text{
+     padding: 2px 10px 2px 10px;
+     font-size: 1rem;
+    
+     background-color: rgb(241, 241, 241);
+     margin-left: 6%;
+     height: 10rem;
+     width: 90%;
+     
+     border-radius: 0.3rem;
+    
+    border-style: solid;
+    border-color: rgba(185, 185, 185, 0.356);
+    border-width: 0.5px;
+    padding: 0.8rem;
+    font-family: inherit;
+ }
+
+ .submit{
+     position: relative;left: 780px;
+     margin-bottom: 10px;
+ }
+
+ .talk-content .text:hover{
+     border-style: none;
+     border-style: solid;
+    border-color: rgba(185, 185, 185, 0.356);
+    border-width: 0.5px;
+     /* background-color: rgb(238, 233, 225); */
+ }
+
+ .talk-content .text:active{
+    border-style: none;
+    border-style: solid;
+    border-color: rgba(95, 151, 224, 0.356);
+    border-width: 0.5px;
+}
+
+/* 单独对文本框限制边框属性 */
+input{outline: none;}
+textarea{outline: none;}
+
+/* 对评论列表增加样式 */
+
+#comment_list{
+    display: flex; 
+   flex-wrap: wrap;
+}
