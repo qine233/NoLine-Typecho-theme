@@ -2,6 +2,7 @@
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 
+
 function themeConfig($logo) {
     $logoCss = new Typecho_Widget_Helper_Form_Element_Text('logoCss', NULL, NULL, _t('站点头像地址'), _t('在这里填入一个图片 URL 地址, 以修改头像'));
     $logo->addInput($logoCss);
@@ -39,35 +40,26 @@ function getNumPosts($days){
     return $total_posts;
 }
 
- function get_comment_at($coid){
-    $db   = Typecho_Db::get();
-    $prow = $db->fetchRow($db->select('parent,status')->from('table.comments')
-        ->where('coid = ?', $coid));//当前评论
-    $mail = "";
-    $parent = @$prow['parent'];
-    if ($parent != "0") {//子评论
-        $arow = $db->fetchRow($db->select('author,status,mail')->from('table.comments')
-            ->where('coid = ?', $parent));//查询该条评论的父评论的信息
-        @$author = @$arow['author'];//作者名称
-        $mail = @$arow['mail'];
-        if(@$author && $arow['status'] == "approved"){//父评论作者存在且父评论已经审核通过
-            if (@$prow['status'] == "waiting"){
-                echo '<p class="commentReview">（评论正在审核中）</p>';
-            }
-            echo '<a href="#comment-' . $parent . '">@' . $author . '</a>';
-        }else{//父评论作者不存在或者父评论没有审核通过
-            if (@$prow['status'] == "waiting"){
-                echo '<p class="commentReview">（评论正在审核中）</p>';
-            }else{
-                echo '';
-            }
-        }
+//获取Gravatar头像 QQ邮箱取用qq头像
+function getGravatar($email, $s = 96, $d = 'mp', $r = 'g', $img = false, $atts = array())
+{
+preg_match_all('/((\d)*)@qq.com/', $email, $vai);
+if (empty($vai['1']['0'])) {
+    $url = 'https://gravatar.loli.net/avatar/';
+    $url .= md5(strtolower(trim($email)));
+    $url .= "?s=$s&d=$d&r=$r";
+    if ($img) {
+        $url = '<img src="' . $url . '"';
+        foreach ($atts as $key => $val)
+            $url .= ' ' . $key . '="' . $val . '"';
+        $url .= ' />';
+    }
+}else{
+    $url = 'https://q2.qlogo.cn/headimg_dl?dst_uin='.$vai['1']['0'].'&spec=100';
+}
+return  $url;
+}
 
-    } else {//母评论，无需输出锚点链接
-        if (@$prow['status'] == "waiting"){
-            echo '<p class="commentReview">（评论正在审核中）</p>';
-        }else{
-            echo '';
-        }
-    }
-    }
+
+
+

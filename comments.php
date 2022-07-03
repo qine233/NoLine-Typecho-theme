@@ -31,27 +31,23 @@
   <p><input type="submit" value="发送" class="submit" /></p>
  </div>
  </form>
-<!-- <?php endif; ?><div class="talk-list">
- 
-<ol style="  display: flex; 
+ <?php endif; ?><div class="talk-list">
+
+<ol style="  display: flex;
    flex-wrap: wrap;" id="comment_list">
     <?php $this->comments()->to($comments); ?>
         <?php while($comments->next()): ?>
 	<li id="list-talk-list">
 	    <div class="comment_data">
-               
+
                 <strong><?php $comments->author(); ?></strong>
                  <?php $comments->date('Y-m-d '); ?>
             </div>
 	    <div class="comment_body"><?php $comments->content(); ?></div>
-	</li>  
-    <?php $comments->pageNav('« 前一页', '后一页 »'); ?>   
+	</li>
+    <?php $comments->pageNav('« 前一页', '后一页 »'); ?>
 
 	<?php endwhile; ?>
-</ol>  
- </div> -->
- <div class="talk-list">
- <?php $this->need("comments-lite.php");?></div>
-    </div>
- 
-</div>
+</ol>
+ </div>
+

@@ -13,6 +13,7 @@
 <div class="content-all">
 <?php $this->need('sidebar.php'); ?>
         <div class="content">
+        <?php $this->need('crumb.php'); ?>
              <!-- <div class="content-list"> -->
 		
   

@@ -12,6 +12,7 @@
 
 <?php $this->need('sidebar.php'); ?>
         <div class="content">
+<?php $this->need('crumb.php'); ?>
              <div class="content-list">
 			 <?php while($this->next()): ?>
     <div class="post">
@@ -57,7 +58,7 @@ Html;
 </div>
 
         </div>
-       
+       <?php $this->need('sidebar-right.php'); ?>
         </div>
 	
 		<?php $this->need('public/footer.php'); ?>

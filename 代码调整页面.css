@@ -1,0 +1,99 @@
+字体常用值：color: rgb(83, 83, 83);  //约80左右
+https://cdn.jsdelivr.net/gh/zc1351856278/jsdever-ty@main/webmo.woff2
+https://cdn.jsdelivr.net/gh/zc1351856278/jsdever-ty@main/webmo.eot
+
+<?php $this->options->themeUrl('comments-lite.php');  ?>
+                                                                                                                                                                                              < div class
+
+=
+"header-daohang"
+>
+< li class
+
+=
+"daohang5"
+> <
+
+/
+li >
+< ul class
+
+=
+"daohang"
+>
+<
+
+?
+php $ this- >
+
+widget
+(
+'Widget_Contents_Page_List'
+)
+-
+>
+
+parse
+(
+'<li><a href="{permalink}">{title}</a></li>'
+)
+;
+?
+> <
+
+/
+ul > <
+
+/
+div >
+
+               .ckass{
+               --bs-blue: #0d6efd;
+                   --bs-indigo: #6610f2;
+                   --bs-purple: #6f42c1;
+                   --bs-pink: #d63384;
+                   --bs-red: #dc3545;
+                   --bs-orange: #fd7e14;
+                   --bs-yellow: #ffc107;
+                   --bs-green: #198754;
+                   --bs-teal: #20c997;
+                   --bs-cyan: #0dcaf0;
+                   --bs-white: #fff;
+                   --bs-gray: #6c757d;
+                   --bs-gray-dark: #343a40;
+                   --bs-gray-100: #f8f9fa;
+                   --bs-gray-200: #e9ecef;
+                   --bs-gray-300: #dee2e6;
+                   --bs-gray-400: #ced4da;
+                   --bs-gray-500: #adb5bd;
+                   --bs-gray-600: #6c757d;
+                   --bs-gray-700: #495057;
+                   --bs-gray-800: #343a40;
+                   --bs-gray-900: #212529;
+                   --bs-primary: #0d6efd;
+                   --bs-secondary: #6c757d;
+                   --bs-success: #198754;
+                   --bs-info: #0dcaf0;
+                   --bs-warning: #ffc107;
+                   --bs-danger: #dc3545;
+                   --bs-light: #f8f9fa;
+                   --bs-dark: #212529;
+                   --background: rgb(241, 241, 241);
+                   --background-circle: #c0d0ff;}
+
+@font-face {
+    font-family: MiSans;
+    font-weight: 400;
+    font-display: swap;
+    src: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-font-service/misans/400/cs.18f554dc09d698f6.0.woff2") format("woff2"),url("https://cdn.cnbj1.fds.api.mi-img.com/mi-font-service/misans/400/cs.18f554dc09d698f6.0.woff") format("woff"),url("https://cdn.cnbj1.fds.api.mi-img.com/mi-font-service/misans/400/cs.18f554dc09d698f6.0.ttf") format("truetype"),url("https://cdn.cnbj1.fds.api.mi-img.com/mi-font-service/misans/400/cs.18f554dc09d698f6.0.eot") format("embedded-opentype");
+    unicode-range: U+20,U+2013-2014,U+2018-2019,U+201c-201d,U+2026,U+3001-3002,U+3008-3011,U+3014-3015,U+4e00,U+4e09-4e0b,U+4e0d-4e0e,U+4e1a,U+4e24,U+4e2a,U+4e2d,U+4e3a-4e3b,U+4e48,U+4e4b,U+4e5f,U+4e86,U+4e8b-4e8c,U+4e8e,U+4e9b,U+4ea7,U+4eba,U+4ec0,U+4ece,U+4ed6,U+4ee5,U+4eec,U+4f1a,U+4f46,U+4f53,U+4f5c,U+4f60,U+4f7f,U+5168,U+516c,U+5173,U+5176,U+519b,U+51fa,U+5206,U+5229,U+5230,U+5236,U+524d,U+529b,U+52a0,U+52a8,U+5341,U+53bb,U+53c8,U+53d1,U+53ea,U+53ef,U+5408,U+540c,U+540e,U+5411,U+548c,U+56e0,U+56fd,U+5728,U+5730,U+5916,U+591a,U+5927,U+5929,U+5934,U+5979,U+597d,U+5982,U+5b50,U+5b66,U+5b83,U+5b9a,U+5b9e,U+5bb6,U+5bf9,U+5c06,U+5c0f,U+5c31,U+5de5,U+5df1-5df2,U+5e74,U+5e76,U+5e94,U+5f00,U+5f53,U+5f88,U+5f97,U+5fc3,U+6027,U+60c5,U+60f3,U+610f,U+6210-6211,U+6216,U+6218,U+6240,U+624b,U+628a,U+653f,U+6587,U+65af-65b0,U+65b9,U+65e0,U+65e5,U+65f6,U+660e,U+662f,U+6700,U+6708-6709,U+672c,U+673a,U+6765,U+679c,U+6837,U+6b63-6b64,U+6c11,U+6ca1,U+6cd5,U+70b9,U+7136,U+7269,U+73b0,U+7406,U+751f,U+7528,U+7531,U+7684,U+76f8,U+770b,U+7740,U+77e5,U+79cd,U+7b2c,U+7b49,U+7ecf,U+7f8e,U+8005,U+800c,U+80fd,U+81ea,U+884c,U+88ab,U+897f,U+8981,U+89c1,U+8bdd,U+8bf4,U+8d77,U+8eab,U+8fc7,U+8fd8-8fd9,U+8fdb,U+9053,U+90a3,U+90e8,U+90fd,U+91cc-91cd,U+957f,U+95ee,U+95f4,U+9762,U+9ad8,U+ff01,U+ff08-ff09,U+ff0c,U+ff0e,U+ff1a-ff1b;
+}
+
+@font-face { font-family: FZYH_510M; src: url(../fonts/FZYH_510M.eot); src: url(../fonts/FZYH_510M.eot?#ie-fixed) format("embedded-opentype"), url(../fonts/FZYH_510M.woff2) format("woff2"), url(../fonts/FZYH_510M.woff) format("woff"), url(../fonts/FZYH_510M.ttf) format("truetype"), url(../fonts/FZYH_510M.svg) format("svg"); font-style: normal; font-weight: 200 }
+@font-face { font-family: FZYH_508R; src: url(../fonts/FZYH_508R.eot); src: url(../fonts/FZYH_508R.eot?#ie-fixed) format("embedded-opentype"), url(../fonts/FZYH_508R.woff2) format("woff2"), url(../fonts/FZYH_508R.woff) format("woff"), url(../fonts/FZYH_508R.ttf) format("truetype"), url(../fonts/FZYH_508R.svg) format("svg"); font-style: normal; font-weight: 200 }
+@font-face { font-family: FZYH_506L; src: url(../fonts/FZYH_506L.eot); src: url(../fonts/FZYH_506L.eot?#ie-fixed) format("embedded-opentype"), url(../fonts/FZYH_506L.woff2) format("woff2"), url(../fonts/FZYH_506L.woff) format("woff"), url(../fonts/FZYH_506L.ttf) format("truetype"), url(../fonts/FZYH_506L.svg) format("svg"); font-style: normal; font-weight: 200 }
+
+
+/*标签云*/
+
+ignoreAuthor=true
