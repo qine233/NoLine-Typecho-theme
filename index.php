@@ -7,6 +7,8 @@
  */
 ?>
 <?php $this->need('public/header.php'); ?>
+<!--<script>NProgress.start();</script>-->
+
 
 <div class="content-all">
 
@@ -60,7 +62,10 @@ Html;
         </div>
        <?php $this->need('sidebar-right.php'); ?>
         </div>
-	
+
+	</div>
+
+<!--<script>NProgress.done();</script>-->
 		<?php $this->need('public/footer.php'); ?>
 		</div>  
 			 </div>
