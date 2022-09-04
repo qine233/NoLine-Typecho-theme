@@ -53,12 +53,13 @@
 
 #comments-padding {
 
-    padding-top: 0.2rem;
+    /*padding-top: 0.2rem;*/
     margin-left: -1rem;
     width: 90rem;
     background-color: white;
     box-shadow: 5px 5px 15px #dadadb;
     border-radius: 0.5rem;
+    padding: 0.3rem 2rem 2rem 1rem;
 }
 
 /* 评论按钮 */
@@ -71,12 +72,28 @@
     background-color: rgb(0, 174, 255);
 
 }
-
+.submit-alone{
+    position: relative;
+    top:21rem;
+    border-style: none;
+    height: 3.2rem;
+    color: white;
+    width: 7rem;
+    border-radius: 0.3rem;
+    /*background-color: rgb(0, 174, 255);*/
+    color: #fff;
+    border: none;
+    background: #448bff linear-gradient(45deg,#448bff,#44e9ff);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: all .2s ease;
+}
 /* 针对表单进行布局尝试 */
 .comments-3-text {
     display: flex;
-    /* margin: 0 15%; */
+     margin: 0 1%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* 评论区标题 */
@@ -146,10 +163,13 @@
 
 .submit {
     position: relative;
-    left: 780px;
-    margin-bottom: 10px;
+    left: 0px;
+    margin-bottom: 10px;   text-align: center;
 }
+.submit a{
+    color: white;
 
+}
 .talk-content .text:hover {
     border-style: none;
     border-style: solid;
@@ -170,13 +190,23 @@ input {
     outline: none;
 }
 
-textarea {
+.comments-3-text textarea{
     outline: none;
+    width: 100%;
+    border-color: #b0b0b0;
+    border-width: 1px;
+   /*border-color: #0d6efd;*/
 }
-
+.comments-3-text textarea:focus{
+    border-color: #0d6efd;
+    border-width: 1px;
+}
 /* 对评论列表增加样式 */
 
 #comment_list {
-    display: flex;
-    flex-wrap: wrap;
+background: #f2f6fc;
+    padding: 0.5rem;
+}
+.comment-list{
+    margin-top: 5rem;
 }

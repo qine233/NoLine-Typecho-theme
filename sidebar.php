@@ -5,17 +5,25 @@
   <img class="logo" src="<?php $this->options->logoCss(); ?>"></div>
             <h1 class="name"><?php $this->options->logoName(); ?></h1>
             <h2 class="name-talk">心若向阳，无畏伤悲</h2>
+             <div class="sibar-data-a">
+
+            <?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
+            <ul class="sibar-data-a-ul">
+            <li><?php $stat->publishedPostsNum() ?></li><li>文章数</li>
+            </ul class="sibar-data-a-ul">
+            <ul class="sibar-data-a-ul"><li><?php $stat->categoriesNum() ?></li><li>分类数</li></ul>
+            <ul class="sibar-data-a-ul"><li><?php $stat->publishedCommentsNum() ?></li><li>评论数</li></ul>
+            </div>
 <div class="button-flex">
-            <!-- <button class="a-left"><a target="_blank" href="<?php $this->options->logocontacta(); ?>">GITHUB</a></button>
-            <button  class="a-right"><a target="_blank" href="<?php $this->options->logocontactb(); ?>">关&nbsp 于</a></button> -->
+             <button class="a-left"><a target="_blank" href="<?php $this->options->logocontacta(); ?>">follow&nbsp&nbspme</a></button>
           </div>
-            <div class="new-text ">
+           <!--  <div class="new-text ">
 
 <ul>
     <?php $this->widget('Widget_Contents_Post_Recent','pageSize=5')
                ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
 </ul>
-</div> 
+</div>-->
 
 </div>
 <div class="sibar-all">
@@ -24,15 +32,7 @@
     <i class="bg-primary"></i></div>
 <div class="sibar-data-abc" >
 
-  <div class="sibar-data-a">
-  
-<?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?>
-<ul class="sibar-data-a-ul">
-<li><?php $stat->publishedPostsNum() ?></li><li>文章数</li>
-</ul class="sibar-data-a-ul">
-<ul class="sibar-data-a-ul"><li><?php $stat->categoriesNum() ?></li><li>分类数</li></ul>
-<ul class="sibar-data-a-ul"><li><?php $stat->publishedCommentsNum() ?></li><li>评论数</li></ul>
-</div>
+
 <div class="sibar-data-b">
  <!-- <ul style="display: inline;">
 
