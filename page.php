@@ -3,7 +3,7 @@
 <?php $this->need('public/header.php'); ?>
 <div class="content-all"><?php $this->need('sidebar.php'); ?>
         <div class="content">
-        <div class="typecho-header">  <span class="typecho-category"><?php $this->category('.')?></span><i class="bg-primary"></i>
+        <div class="typecho-header">  <span class="typecho-category"><?php $this->category('.')?></span>
         <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
         <span class="typecho-time"><?php $this->date('Y/m/d'); ?></span>
 

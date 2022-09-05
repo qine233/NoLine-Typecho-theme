@@ -191,11 +191,11 @@ a:hover {
 .header {
     /* padding-left: 18%; */
     /* padding-right: 18%; */
-    padding-top: 0px;
+    /*padding-top: 0px;*/
     /* margin-left: 8px; */
-    position: fixed;
+    /*position: fixed;*/
     background-color: rgba(255, 255, 255);
-
+    padding: 0 10% 0 3%;
     /*filter: blur(5px);*/
     box-shadow: 0 4px 8px 0 rgb(7 17 27 / 10%);
     top: 0;
@@ -216,12 +216,20 @@ a:hover {
     /*flex-wrap: wrap;*/
 
 }
-.header-daohang{
-    display: block;
-    width: 10rem;
-    position: relative;
-    left: 50rem;
-    top:-4rem;
+#nav_menu {
+    display: inline-flex;
+    margin-left:12rem ;
+
+}
+#nav_menu ul{padding-top: 1rem;
+}
+#nav_menu li {
+    list-style: none;
+    margin-right:5rem ;
+
+}
+#nav_menu a{
+    font-size: 15px;
 }
 .daohang5:hover{
     background-color: #0d6efd;
@@ -396,8 +404,9 @@ header h1 {
 
 .content {
 
-    /*margin-left: 4rem;*/
-    /* margin-top: 15px; */
+    /*margin-left: 3rem;*/
+    margin-right: 2.2rem;
+     margin-top: -10rem;
     /* padding-top: 18px; */
     padding: 22px 0 0 0 !important;
     width: 70rem;
@@ -405,12 +414,12 @@ header h1 {
     /* height: 970px; */
     /* background-color: rgba(233, 232, 232, 0.692); */
     border-radius: 0.8rem;
-    /* box-shadow: 18px 18px 30px #d1d9e6; */
-    /* overflow: scroll; */
+
 }
 
 .content-list {
     /* border-radius: 0.8rem; */
+    margin-left: 2rem;
     margin-top: 3.3rem;
     width: auto;
     border-radius: 0.8rem;
@@ -426,18 +435,18 @@ header h1 {
 .content-last {
 
     position: sticky;
-    top: 9.8rem;
-    left: 16rem;
+    top: 6.8rem;
+    /*left: 11rem;*/
     /*margin-left: 6rem;*/
     /* float: inline-start;
     position: relative; */
 
     outline: none;
 
-    padding-top: 18px !important;
+    /*padding-top: 18px !important;*/
     /* background-color: rgb(241, 239, 239); */
     /* box-sizing: border-box; */
-    width: 380px !important;
+    /*width: 380px !important;*/
     /* min-height: 970px; */
     /* background-color: rgb(236, 226, 226);*/
     /* box-shadow: 18px 18px 30px #d1d9e6; */
@@ -452,7 +461,7 @@ header h1 {
 }
 
 .contact {
-    margin-top: -1rem;
+    margin-top: -4.5rem;
     display: fixed;
     margin-left: 11px;
     width: 300px;
@@ -501,13 +510,14 @@ element.style {
 
 .archives {
     /* display: flex; */
-
+    min-height: 20rem;
+    max-height: 25rem;
     margin-top: -6px;
     /*  margin-left: 18.5rem; */
     /* color: white */
     font-weight: 400;
     /* padding-bottom: 0.1rem; */
-
+    overflow: scroll;
 }
 
 .archives a {
@@ -781,18 +791,19 @@ element.style {
     border-radius: 50% !important;
     width: 4rem;
     height: 4rem;
-    box-shadow: 5px 5px 30px #dadfe9;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
     font-weight: 400;
     text-align: center;
     padding: 9px 0 0 0px;
-    color: #0a0606;
+    color: #000000;
+    background: white;
 }
 .content .nav-page span{
     border-style: none;
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
-    box-shadow: 5px 5px 30px #dadfe9;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
     color: #0a0606;
 }
 
@@ -957,8 +968,9 @@ display:-webkit-box;
 }
 /*第二列sidebar*/
 .sidebar-right{
-    position: sticky;
-    top:10.5rem;
+    /*position: sticky;*/
+    /*margin-top:5.5rem;*/
+    margin-top: -4.5rem;
 
 
 }
@@ -1030,32 +1042,37 @@ margin-left: -4rem;
     z-index: 999;
     /* margin-left: 150px;
     margin-top: 1.5rem; */
-    border-style: solid;
-    border-right: none;
+    /*border-style: solid;*/
+    /*border-right: none;*/
 
-    border-bottom: none;
-    border-left: none;
-    border-color: rgba(196, 196, 196, 0.911);
-    border-width: 1px;
+    /*border-bottom: none;*/
+    /*border-left: none;*/
 
+    /*border-width: 1px;*/
+    height: 8rem;
     width: 100%;
     /* height: 4.5rem; */
-    background-color: rgba(230, 230, 230, 0.692);
+    background-color: rgba(255, 255, 255);
     text-align: center;
-
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
 }
 
 /* 底部文字样式 */
-.footer .footer-h2 {
+/*.footer .footer-h2 {*/
+/*    margin-bottom: 0;*/
+/*    text-align: center;*/
+/*    font-size: 15px;*/
+/*    font-weight: 400;*/
+/*    font-family: inherit;*/
+/*    position: relative;*/
+/*    top: 40px;*/
+/*}*/
+.text-ellipsis{
     margin-bottom: 0;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-    font-family: inherit;
-    position: relative;
-    top: 40px;
 }
-
+.footer a{
+    color: #0d6efd !important;
+}
 code {
     height: auto;
     min-height: none;
@@ -1207,6 +1224,7 @@ hr {
 
 .post-images {
     width: 70rem;
+    height: 20rem;
 }
 
 
@@ -1298,8 +1316,8 @@ top:0;
 
 .footer h3 {
     font-size: 1rem;
-    padding-bottom: 0.5rem;
-    padding-top: 2rem;
+
+    padding: 5rem 0 0 0;
     text-align: center;
     font-weight: 400;
 }

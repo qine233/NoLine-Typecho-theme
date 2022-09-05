@@ -4,7 +4,7 @@
 <span id="sidebar-tags">the tags</span>
 <?php $this->widget('Widget_Metas_Tag_Cloud','ignoreZeroCount=1&limit=25')->to($tags); ?>
      <?php while($tags->next()):?>
-     <span style="background-color:rgb(<?php echo(rand(150,235)); ?>,<?php echo(rand(120,225)); ?>, <?php echo(rand(124,255)); ?>);" id="tags"> <a  href="<?php $tags->permalink();?>"><?php $tags->name();?></a></span>
+     <span style="background-color:#3881f3;" id="tags"> <a href="<?php $tags->permalink();?>"><?php $tags->name();?></a></span>
       <?php endwhile;?>
 </div>
 <span id="sidebar-tags">recent&nbsp&nbspcommit</span>
