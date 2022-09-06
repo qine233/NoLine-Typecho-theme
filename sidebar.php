@@ -28,7 +28,7 @@
 </div>
 <div class="sibar-all">
 <div class="sibar-data border-wid" >
-<div class="mac"><span>分类</span>
+<div class="mac"><span>classification</span>
     <i class="bg-primary"></i></div>
 <div class="sibar-data-abc" >
 
