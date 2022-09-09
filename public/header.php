@@ -20,8 +20,21 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/atom-one-dark.min.css">
 
 <?php $this->header(); ?>
+    <script>
+        window.onload = function ()
+        {
+            var oBtn = document.getElementById("box_hover");
+            var oBox = document.getElementById("sideroom");
+            oBtn.onclick = function ()
+            {
+                oBox.style.cssText = "display:none";
+            };
+        }
+    </script>
 </head>
-<body>  <header class="header navbar navbar-default ">
+<body>
+<header class="header navbar navbar-default ">
+    <div id="box_hover" ><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
 
     <h1>
         <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>
@@ -33,12 +46,9 @@
         <?php $this->widget('Widget_Contents_Page_List')
         ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
     </ul>
-
 </header>
+<?php $this->need('sideroom.php'); ?>
+
 <div class="container">
-
-
-
-
         </div>
 <div id="pjax-container">

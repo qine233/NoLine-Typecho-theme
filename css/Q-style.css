@@ -166,6 +166,7 @@ a:hover {
 }
 *{
     /*text-shadow: 0 0.1875rem 0.3125rem rgb(0 0 0 / 30%);*/
+
 }
  body {
         /* display: flex; */
@@ -1422,8 +1423,12 @@ top:0;
     padding: 8px 15px;
 
 }
+.sideroom{
+    display: none;
+}
 
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1250px) {
     .sidebar-r{
         display: none;
     }
@@ -1437,8 +1442,9 @@ top:0;
 
     }
 
-    .duli {
-        display: none;
+    .content-all{
+        padding: 0 4% 0 3%;
+
     }
 }
 
@@ -1459,4 +1465,8 @@ top:0;
 
 .sidenav {
     display: none;
+}
+#box_hover {
+    display: none;
+
 }
