@@ -20,14 +20,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/atom-one-dark.min.css">
 
 <?php $this->header(); ?>
+
     <script>
         window.onload = function ()
         {
+            var oBtn2 = document.getElementById("sideroom-blur");
             var oBtn = document.getElementById("box_hover");
             var oBox = document.getElementById("sideroom");
             oBtn.onclick = function ()
             {
-                oBox.style.cssText = "display:none";
+                oBox.style.cssText = "display:block; "
+            };
+            oBtn2.onclick = function ()
+            {
+                oBox.style.cssText = "display:none;"
             };
         }
     </script>

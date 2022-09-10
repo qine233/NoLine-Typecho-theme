@@ -709,7 +709,7 @@ element.style {
 .content .nav-page {
     margin-top: 1.2rem;
     position: relative;
-    z-index: 999;
+
     left: 0;
     right: 0;
     bottom: 15px;
@@ -1469,4 +1469,7 @@ top:0;
 #box_hover {
     display: none;
 
+}
+.sideroom{
+    display: none;
 }
