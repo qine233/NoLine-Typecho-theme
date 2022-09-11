@@ -210,3 +210,8 @@ background: #f2f6fc;
 .comment-list{
     margin-top: 5rem;
 }
+.typecho-user-text{
+    margin-top: -6rem;
+    margin-left: 5rem;
+    width: 73%;
+}

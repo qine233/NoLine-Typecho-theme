@@ -2,7 +2,7 @@
 
 <?php $this->need('public/header.php'); ?>
 <div class="content-all"><?php $this->need('sidebar.php'); ?>
-        <div class="content">
+
 
 
         <div class="typecho-user-text">
@@ -18,7 +18,7 @@
 
         <script >hljs.initHighlightingOnLoad();</script>
     </div>
-	</div>
+
     </div> <?php $this->need('comments.php'); ?>
     </div>
 

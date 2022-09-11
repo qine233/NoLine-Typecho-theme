@@ -320,5 +320,7 @@ width: 10rem;
         /*filter: blur(5px);*/
 
     }
+    .typecho-user-text{
+        width: auto;
     }
 }

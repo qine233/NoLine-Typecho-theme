@@ -658,7 +658,7 @@ element.style {
     /* height: 1000px; */
     /* overflow: hidden; */
     border-radius: 0.3rem;
-    box-shadow: 5px 5px 15px #dadadb;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
 
 }
 
@@ -1164,17 +1164,12 @@ hr {
 
 .post-title {
 
-    /*margin-top: 20px;*/
     height: 3rem;
     font-weight: 400;
     font-size: 1.8rem;
-    /* border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: rgb(184, 184, 184); */
     color: rgb(48, 48, 48);
+    padding-bottom: 4rem;
+    border-bottom: 0.1px solid #c1cfdb;
 }
 
 .site-search {
