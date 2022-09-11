@@ -1,0 +1,8 @@
+     <span class="typecho-time"><?php $this->date('Y/m/d'); ?></span>
+     <span class="typecho-category"><?php $this->category('.')?></span>
+      <div class="typecho-header">
+             <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
+
+
+
+             </div>
