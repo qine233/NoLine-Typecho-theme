@@ -40,7 +40,7 @@
 
 .comments {
 
-    width: 60rem;
+
     /* height: 500px; */
     /* margin-left: 9.5rem; */
     margin-top: 1rem;
@@ -55,10 +55,10 @@
 
     /*padding-top: 0.2rem;*/
     margin-left: -1rem;
-    width: 90rem;
+
     background-color: white;
-    box-shadow: 5px 5px 15px #dadadb;
-    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
+    border-radius: 0.3#comments-paddingrem;
     padding: 0.3rem 2rem 2rem 1rem;
 }
 

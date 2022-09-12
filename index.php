@@ -59,12 +59,12 @@ preg_match_all("/\<img.*?src\=(\'|\")(.*?)(\'|\")[^>]*>/i", $this->content, $mat
         </div>
        <?php $this->need('sidebar-right.php'); ?>
         </div>
-
+</div><?php $this->need('public/footer.php'); ?>
 	</div>
 
 <!--<script>NProgress.done();</script>-->
-		<?php $this->need('public/footer.php'); ?>
-		</div>
+
+
 			 </div>
 
 </body>

@@ -13,6 +13,7 @@
 
         </div>
        <div class="content-text-2 " id="hideImg">
+        <span class="typecho-time"><?php $this->date('Y/m/d'); ?></span>
          <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
         <?php $this->content(); ?>
 
@@ -31,9 +32,10 @@
                      </script>
 
            </div>
-</div></div>
-
-      <?php $this->need('public/footer.php'); ?>
+</div>
+</div>
+</div>
+<?php $this->need('public/footer.php'); ?>
 
 
 
