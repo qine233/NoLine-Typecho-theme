@@ -261,7 +261,7 @@ margin-left: 0;
         position: fixed;
         height: 100%;
         width: 75%;
-        background: #f3f6ff;
+        background: #ffffff;
         margin-top: 5rem;
         box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
         transition-property:width;
@@ -270,7 +270,7 @@ margin-left: 0;
         transition-delay:0s;
     }
     .alaver-img{
-        width: 100px;
+        width: 90px;
         margin: 2rem 0 0 35%;
         border-radius: 50%;
         box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
@@ -281,6 +281,11 @@ margin-left: 0;
     }
     .sibar-data-a{
         background: #3989fd;
+        border-radius: 0.4rem;
+        box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
+    }
+    .sibar-data-ab{
+        padding: 0 5%;
     }
     .sibar-data-a ul{
         background: #3989fd;
@@ -290,6 +295,9 @@ margin-left: 0;
         color: white;
         padding: 0.5px;
         text-align: center;
+    }
+    .nav_menu-mb{
+        padding: 0 5%;
     }
     #nav_menu-m {
         margin-top: 3rem;
@@ -321,5 +329,8 @@ margin-left: 0;
     .typecho-user-text{
         width: auto;
         margin-top: 5px;
+    }
+    #nav_list_a{
+        display: none;
     }
 }

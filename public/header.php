@@ -24,6 +24,9 @@
     <script>
         window.onload = function ()
         {
+            var ob="test";
+            var oBtn3 = document.getElementById("nav_list_a_f");
+            var oBox3 = document.getElementById("nav_list_a");
             var oBtn2 = document.getElementById("sideroom-blur");
             var oBtn = document.getElementById("box_hover");
             var oBox = document.getElementById("sideroom");
@@ -34,6 +37,17 @@
             oBtn2.onclick = function ()
             {
                 oBox.style.cssText = "display:none;"
+            };
+            oBtn3.onclick = function ()
+            {
+
+                if(getComputedStyle(nav_list_a).display=="none"){
+                    oBox3.style.cssText = "display:block;"
+                } else if(getComputedStyle(nav_list_a).display=="block"){
+                    oBox3.style.cssText = "display:none;"
+                }
+
+
             };
         }
     </script>

@@ -6,3 +6,15 @@
 
 
              </div>
+
+             =----------------------------------
+
+                <ul  id="nav_menu-m">
+                                 <li><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
+                                 <?php $this->widget('Widget_Contents_Page_List')
+                                 ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
+                             </ul>
+                            <ul id="nav_menu-m">
+                                 <?php $this->widget('Widget_Metas_Category_List')
+                                            ->parse('<li><a href="{permalink}">{name}</a> </li>'); ?>
+                             </ul>
