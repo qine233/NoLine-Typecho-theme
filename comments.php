@@ -11,7 +11,7 @@
     ?>
 
 
-    <div id="<?php $comments->theId(); ?>">
+    <div id="<?php $comments->theId(); ?>" class="comments-type">
        <?php $email=$comments->mail; $imgUrl = getGravatar($email);echo '<img src="'.$imgUrl.'" width="45px" height="45px" style="border-radius: 20%;box-shadow: 2px 2px 3px #e1e1e1;" >'; ?>
         <h5><?php $comments->author(); ?>&nbsp<?php $comments->date('Y-m-d H:i'); ?></h5>
 

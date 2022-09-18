@@ -14,10 +14,13 @@
             </div></div>
  <div class="nav_menu-mb" >
                         <ul  id="nav_menu-m">
-                                 <li><a id="nav_list_a_f" href="<?php $this->options->siteUrl(); ?>">首页</a></li>
-                                 <div id="nav_list_a"> <?php $this->widget('Widget_Contents_Page_List')
+                                 <li><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
+                                 <li id="nav_list_a_f" >栏目</li>
+                                 <div id="nav_list_a"> <div class="nav_list_a-padding"><?php $this->widget('Widget_Contents_Page_List')
                                  ->parse('<li ><a href="{permalink}">{title}</a></li>'); ?>
-                             </ul></div></div>
+                                  <?php $this->widget('Widget_Metas_Category_List')
+                                     ->parse('<li><a href="{permalink}">{name}</a> </li>'); ?>
+                             </ul></div></div></div>
                 <div class="sideroom-blur" id="sideroom-blur">
                 </div>
 </div>
