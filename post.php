@@ -11,10 +11,10 @@
 		<div class="typecho-text text-tream " >
 
 
-        </div>
-       <div class="content-text-2 " id="hideImg">
-        <span class="typecho-time"><?php $this->date('Y/m/d'); ?></span>
-         <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
+        </div>  <span class="typecho-time"><?php $this->date('Y/m/d'); ?></span>
+                       <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
+       <div class="content-text-2 "  id="write">
+
         <?php $this->content(); ?>
 
         <script >hljs.initHighlightingOnLoad();</script>

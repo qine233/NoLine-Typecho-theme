@@ -10,7 +10,7 @@
     <script src="<?php $this->options->themeUrl('css/nprogress.js'); ?>"></script>
 <title><?php $this->archiveTitle(array('category' => '分类 %s 下的文章', 'search' => '包含关键字 %s 的文章', 'tag' => '标签 %s 下的文章', 'author' => '%s 发布的文章'), '', ' - '); ?><?php $this->options->title(); ?></title>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/bootstrap.min.css');  ?>">
-
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/typora-indigo.css'); ?>">
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/Q-style.css'); ?>">
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/post.css'); ?>">
 <link rel="stylesheet" href="<?php $this->options->themeUrl('css/mobile.css');  ?>">
@@ -26,6 +26,8 @@
             var ob="test";
             var oBtn3 = document.getElementById("nav_list_a_f");
             var oBox3 = document.getElementById("nav_list_a");
+            var oBtn4 = document.getElementById("nav_list_a_g");
+            var oBox4 = document.getElementById("nav_list_b");
             var oBtn2 = document.getElementById("sideroom-blur");
             var oBtn = document.getElementById("box_hover");
             var oBox = document.getElementById("sideroom");
@@ -44,6 +46,17 @@
                     oBox3.style.cssText = "display:block;"
                 } else if(getComputedStyle(nav_list_a).display=="block"){
                     oBox3.style.cssText = "display:none;"
+                }
+
+
+            };
+            oBtn4.onclick = function ()
+            {
+
+                if(getComputedStyle(nav_list_b).display=="none"){
+                    oBox4.style.cssText = "display:block;"
+                } else if(getComputedStyle(nav_list_b).display=="block"){
+                    oBox4.style.cssText = "display:none;"
                 }
 
 

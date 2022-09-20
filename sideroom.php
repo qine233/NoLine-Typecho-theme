@@ -1,7 +1,11 @@
 
 <div class="sideroom" id="sideroom">
- <img class="alaver-img" src="<?php $this->options->logoCss(); ?>">
-            <h1 class="name"><?php $this->options->logoName(); ?></h1>
+<div class="bg_color-sideroom">
+<img class="alaver-img" src="<?php $this->options->logoCss(); ?>">
+ <h1 class="name"><?php $this->options->logoName(); ?></h1>
+ <h1 class="name-talk">心若向阳，无畏伤悲</h1>
+</div>
+
 
 
                <div class="sibar-data-ab"><div class="sibar-data-a">
@@ -16,11 +20,18 @@
                         <ul  id="nav_menu-m">
                                  <li><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
                                  <li id="nav_list_a_f" >栏目</li>
-                                 <div id="nav_list_a"> <div class="nav_list_a-padding"><?php $this->widget('Widget_Contents_Page_List')
+                                 <div id="nav_list_a">
+                                  <div class="nav_list_a-padding">
+                                  <?php $this->widget('Widget_Contents_Page_List')
                                  ->parse('<li ><a href="{permalink}">{title}</a></li>'); ?>
-                                  <?php $this->widget('Widget_Metas_Category_List')
-                                     ->parse('<li><a href="{permalink}">{name}</a> </li>'); ?>
-                             </ul></div></div></div>
+</div></div>
+                             </ul>
+                               <ul  id="nav_menu-m">
+                                <li id="nav_list_a_g" >分类</li>
+                                      <div id="nav_list_b">  <div class="nav_list_a-padding"> <?php $this->widget('Widget_Metas_Category_List')
+                                           ->parse('<li><a href="{permalink}">{name}</a> </li>'); ?>
+                               </ul>
+                             </div></div></div></div>
                 <div class="sideroom-blur" id="sideroom-blur">
                 </div>
 </div>
