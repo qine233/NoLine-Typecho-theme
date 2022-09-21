@@ -28,7 +28,7 @@
 <?php } ?>
     <div class="comments">
     <div id="comments-padding">
-    <h4><?php $this->commentsNum(_t('暂无评论'), _t('仅有一条评论'), _t('已有 %d 条评论')); ?></h4>
+    <h4 style="margin-left:2rem;"><?php $this->commentsNum(_t('comments'), _t('comments'), _t('comments')); ?></h4>
 <?php $this->comments()->to($comments); ?>
 <?php if ($this->allow('comment')) : ?>
     <!-- 评论表单form放的地方-->
@@ -42,15 +42,18 @@
                 <p><?php _e('登录身份: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出'); ?> &raquo;</a></p>
             <?php else: ?>
                 <div class="comments-3-text">
-                    <p><label>昵称*&nbsp;:&nbsp;</label><input type="text" name="author" class="text" size="35" value="<?php $this->remember('author'); ?>" /></p>
-                    <p><label>邮箱*&nbsp;:&nbsp;</label><input type="text" name="mail" class="text" size="35" value="<?php $this->remember('mail'); ?>" /></p>
-                    <p><label>网站链接(可不填)&nbsp;:&nbsp;</label><input type="text" name="url" class="text" size="35" value="<?php $this->remember('url'); ?>" /></p>
+                 <textarea rows="8" cols="50" name="text" id="textarea" placeholder="写出你精彩的想法"  class="textarea" required ><?php $this->remember('text'); ?></textarea>
 
+                <div class="comments-unuser">    <input type="text"  placeholder="昵称(*)" name="author" class="text"  value="<?php $this->remember('author'); ?>" />
+                    <input type="text" name="mail" class="text" placeholder="邮箱(*)"  value="<?php $this->remember('mail'); ?>" />
+                    <input type="text" name="url" class="text" placeholder="网址"  value="<?php $this->remember('url'); ?>" />
+                       <button type="submit" class="submit-alone"><?php _e('发表'); ?></button>
+                     </div>
             <?php endif; ?>
 
-   <button type="submit" class="submit-alone"><?php _e('提交'); ?></button>
 
-                <textarea rows="8" cols="50" name="text" id="textarea" class="textarea" required ><?php $this->remember('text'); ?></textarea>
+
+
 
 
                     <div class="talk-content">

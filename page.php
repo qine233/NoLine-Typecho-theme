@@ -11,10 +11,10 @@
 		<div class="typecho-text text-tream " >
 
 
-        </div>
-       <div class="content-text-2 " id="hideImg">
-        <span class="typecho-time"><?php $this->date('Y/m/d'); ?></span>
-         <h1 class="post-title" itemprop="name headline"><?php $this->title() ?></h1>
+        </div>  <span class="typecho-time"><?php $this->date('Y/m/d'); ?></span>
+                       <h1 class="post-title" itemprop="name headline">「&nbsp&nbsp<?php $this->title() ?>&nbsp&nbsp」</h1>
+       <div class="content-text-2 "  id="write">
+
         <?php $this->content(); ?>
 
         <script >hljs.initHighlightingOnLoad();</script>
@@ -26,7 +26,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/vditor/dist/index.min.js"></script>
               <script type="text/javascript">
-                     var image = new Viewer(document.getElementById('hideImg'),{
+                     var image = new Viewer(document.getElementById('write'),{
                                          url: 'src'
                                      });
                      </script>

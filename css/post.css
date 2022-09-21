@@ -73,19 +73,19 @@
 
 }
 .submit-alone{
-    position: relative;
-    top:21rem;
-    border-style: none;
+    /* top: 21rem; */
+    /* border-style: none; */
     height: 3.2rem;
     color: white;
-    width: 7rem;
-    border-radius: 0.3rem;
-    /*background-color: rgb(0, 174, 255);*/
+
+    border-radius: 0.6rem;
+    background-color: #4482e5;
     color: #fff;
     border: none;
-    background: #448bff linear-gradient(45deg,#448bff,#44e9ff);
+    /* background: #448bff linear-gradient(45deg,#448bff,#44e9ff); */
     padding-top: 6px;
     padding-bottom: 6px;
+    margin-top: 1rem;
     transition: all .2s ease;
 }
 /* 针对表单进行布局尝试 */
@@ -113,34 +113,22 @@
 }
 
 .comments-3-text .text {
-    border-top-right-radius: 0.2rem;
-    border-bottom-right-radius: 0.2rem;
     /* border-radius: 0.3rem; */
-    height: 1.9rem;
-    width: 9rem;
+    height: 3.7rem;
+    border-radius: 1rem;
+    width: 30%;
     border-style: solid;
-    border-color: rgb(81, 185, 250);
-    border-bottom: none;
-    border-top: none;
-    border-right: none;
-
-    background-color: rgb(237, 237, 238);
+    border-color: rgba(255, 255, 255, 0);
+    background-color: #e6f3ff;
+    margin-top: 1.2rem;
 
 }
 
-.comments-3-text p {
-    margin-left: 6.5rem;
-    font-weight: 600;
-}
+
 
 .comments-3-text .text:hover {
-    border-style: none;
-
-    border-style: solid;
-    border-color: rgb(250, 143, 81);
-    border-bottom: none;
-    border-top: none;
-    border-right: none;
+    border-color: #4c92fb;
+    border-width: 1px;
 }
 
 .talk-content .text {
@@ -160,7 +148,6 @@
     padding: 0.8rem;
     font-family: inherit;
 }
-
 .submit {
     position: relative;
     left: 0px;
@@ -190,19 +177,29 @@ input {
     outline: none;
 }
 
-.comments-3-text textarea{
-    outline: none;
+#textarea{
+    outline: 0;
     width: 100%;
-    border-color: #b0b0b0;
-    border-width: 1px;
-   /*border-color: #0d6efd;*/
+    border-color: #b0b0b000;
+    border-radius: 1.5rem;
+    background: #e6f3ff;
+    resize: none;
+    padding: 1rem;
 }
-.comments-3-text textarea:focus{
-    border-color: #0d6efd;
+#textarea:focus{
+    border-color: #4c92fb;
     border-width: 1px;
 }
 /* 对评论列表增加样式 */
+.comments-unuser{
+    display: flex;
 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100%;
+}
 #comment_list {
 background: #f2f6fc;
     padding: 0.5rem;

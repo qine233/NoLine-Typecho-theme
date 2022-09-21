@@ -1,7 +1,7 @@
 @charset "UTF-8";
 #write {
   color: #595959;
-  font-size: 16px;
+  font-size: 14px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   line-height: 1.8em;
   background-image: linear-gradient(90deg, rgba(60, 10, 30, 0.05) 3%, transparent 0), linear-gradient(1turn, rgba(60, 10, 30, 0.05) 3%, transparent 0);
@@ -30,11 +30,11 @@
   color: #667eea;
 }
 #write strong {
-  color: #5a67d8;
+  color: #4482e5;
 }
 #write code,
 #write a {
-  color: #5a67d8;
+  color: #4482e5;
 }
 #write a {
   border-color: #667eea;
@@ -64,7 +64,7 @@
 }
 #write h1,
 #write h2 {
-  border-color: #5a67d8;
+  border-color: #4482e5;
   border-style: solid;
   border-top-width: 0px;
   border-right-width: 0px;
@@ -115,7 +115,7 @@
 }
 #write code,
 #write a {
-  font-size: unset;
+  font-size: 14px;
 }
 #write a {
   text-decoration: none;
@@ -184,7 +184,7 @@
   -webkit-appearance: initial;
   display: block;
   position: absolute;
-  border: 1px solid #5a67d8;
+  border: 1px solid #4482e5;
   border-radius: 0.25rem;
   margin-left: -1.5rem;
   height: 1.2rem;
@@ -197,7 +197,7 @@
   box-shadow: none;
 }
 #write .task-list-item > input:hover {
-  border-color: #5a67d8;
+  border-color: #4482e5;
 }
 #write .task-list-item > input[checked]::before {
   content: "";
@@ -207,7 +207,7 @@
   height: 60%;
   width: 2px;
   transform: rotate(40deg);
-  background: #5a67d8;
+  background: #4482e5;
 }
 #write .task-list-item > input[checked]::after {
   content: "";
@@ -217,7 +217,7 @@
   height: 30%;
   width: 2px;
   transform: rotate(-40deg);
-  background: #5a67d8;
+  background: #4482e5;
 }
 #write pre.md-fences,
 #write pre.md-meta-block,

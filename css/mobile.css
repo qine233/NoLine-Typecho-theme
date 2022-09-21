@@ -368,6 +368,45 @@ margin-left: 0;
     #nav_list_b{
     display: none;
     }
+    #write{
+        font-size: 12px;
+    }
+    .comments-3-text .text {
+        /* border-radius: 0.3rem; */
+        height: 3.7rem;
+        border-radius: 1rem;
+        width: 100%;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0);
+        background-color: #e6f3ff;
+        margin-top: 1.2rem;
+    }
+    .comments-unuser {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-around;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    .submit-alone {
+        /* display: none; */
+        /* top: 21rem; */
+        /* border-style: none; */
+        height: 3.2rem;
+        color: white;
+        border-radius: 0.6rem;
+        background-color: #4482e5;
+        color: #fff;
+        border: none;
+        /* background: #448bff linear-gradient(45deg,#448bff,#44e9ff); */
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-top: 1rem;
+        width: 100%;
+        transition: all .2s ease;
+    }
 }
     #nav_list_b li {
         box-shadow: none;

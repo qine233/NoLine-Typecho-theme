@@ -145,6 +145,7 @@ button,
 input,
 select,
 textarea {
+    transition: all .2s ease;
     font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif;
 }
 body {
@@ -981,7 +982,6 @@ display:-webkit-box;
 }
 .sidebar-r{
     width: 340px;
-    height:68rem;
     padding: 2rem;
     border-radius: 0.2rem;
     background: white;
@@ -1091,21 +1091,20 @@ code {
 
 
 
-blockquote {
+/*blockquote {*/
 
-    display: block;
-    border-style: solid;
+/*    display: block;*/
+/*    border-style: solid;*/
 
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
+/*    border-right: none;*/
+/*    border-top: none;*/
+/*    border-bottom: none;*/
 
-    border-color: rgba(255, 30, 0, 0.356);
-    border-width: 5px;
-    font-size: 1.7rem;
-    color: rgba(255, 30, 0, 0.356);
-    background: #ffe1e1;
-}
+/*    border-color: rgba(255, 30, 0, 0.356);*/
+/*    border-width: 5px;*/
+/*    color: rgba(255, 30, 0, 0.356);*/
+/*    background: #ffe1e1;*/
+/*}*/
 
 pre {
     background-color: white !important;
@@ -1163,20 +1162,18 @@ hr {
 }
 
 .post-title {
-
+    text-align: center;
     height: 3rem;
-    font-weight: 400;
-    font-size: 1.8rem;
-    color: rgb(48, 48, 48);
+    font-weight: 600;
+    font-size: 2.6rem;
+    color: #3989fd;
     padding-bottom: 4rem;
-    border-bottom: 0.1px solid #c1cfdb;
+    border-bottom: 1px solid #c1cfdb52;
 }
 
 .site-search {
     display: inline-block;
-    position: absolute;
-    right: 4.5%;
-    top: 45%;
+
 
 }
 
@@ -1203,7 +1200,7 @@ hr {
 
     height: 3rem;
     border-width: 1px;
-    width: 17rem;
+    width: 25rem;
 }
 
 .a-submit {
