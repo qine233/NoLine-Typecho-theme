@@ -13,14 +13,14 @@
 
     <div id="<?php $comments->theId(); ?>" class="comments-type">
        <?php $email=$comments->mail; $imgUrl = getGravatar($email);echo '<img src="'.$imgUrl.'" width="45px" height="45px" style="border-radius: 20%;box-shadow: 2px 2px 3px #e1e1e1;" >'; ?>
-        <h5><?php $comments->author(); ?>&nbsp<?php $comments->date('Y-m-d H:i'); ?></h5>
-
+        <h5><?php $comments->author(); ?></h5>
+        <h5><?php $comments->date('Y-m-d H:i'); ?></h5>
+         <p class="submit"><?php $comments->reply(); ?></p>
         <div id="comment_list">
             <?php $comments->content(); ?>
         </div>
-        <p class="submit"><?php $comments->reply(); ?></p>
-    </div>
 
+    </div>
     <?php if ($comments->children) { ?>
         <?php $comments->threadedComments($options); ?>
     <?php } ?>
@@ -50,18 +50,12 @@
                        <button type="submit" class="submit-alone"><?php _e('发表'); ?></button>
                      </div>
             <?php endif; ?>
-
-
-
-
-
-
                     <div class="talk-content">
             </div> </div>
         </form>
     </div>
 <?php else : ?>
-    <h3><?php _e('评论已关闭'); ?></h3>
+    <h3><?php _e('评论已走丢'); ?></h3>
 <?php endif; ?>
 
     <!-- 回复列表 -->
