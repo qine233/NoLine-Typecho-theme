@@ -4,6 +4,65 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 
 function themeConfig($logo) {
+$db = Typecho_Db::get();
+$sjdq=$db->fetchRow($db->select()->from ('table.options')->where ('name = ?', 'theme:qine'));
+$ysj = $sjdq['value'];
+if(isset($_POST['type']))
+{
+if($_POST["type"]=="备份模板数据"){
+if($db->fetchRow($db->select()->from ('table.options')->where ('name = ?', 'theme:qine'))){
+$update = $db->update('table.options')->rows(array('value'=>$ysj))->where('name = ?', 'theme:qine');
+$updateRows= $db->query($update);
+echo '<div class="tongzhi">备份已更新，请等待自动刷新！如果等不到请点击';
+?>
+<a href="<?php Helper::options()->adminUrl('options-theme.php'); ?>">这里</a></div>
+<script language="JavaScript">window.setTimeout("location=\'<?php Helper::options()->adminUrl('options-theme.php'); ?>\'", 2500);</script>
+<?php
+}else{
+if($ysj){
+$insert = $db->insert('table.options')
+->rows(array('name' => 'theme:qine','user' => '0','value' => $ysj));
+$insertId = $db->query($insert);
+echo '<div class="tongzhi">备份完成，请等待自动刷新！如果等不到请点击';
+?>
+<a href="<?php Helper::options()->adminUrl('options-theme.php'); ?>">这里</a></div>
+<script language="JavaScript">window.setTimeout("location=\'<?php Helper::options()->adminUrl('options-theme.php'); ?>\'", 2500);</script>
+<?php
+}
+}
+}
+if($_POST["type"]=="还原模板数据"){
+if($db->fetchRow($db->select()->from ('table.options')->where ('name = ?', 'theme:qine'))){
+$sjdub=$db->fetchRow($db->select()->from ('table.options')->where ('name = ?', 'theme:qine'));
+$bsj = $sjdub['value'];
+$update = $db->update('table.options')->rows(array('value'=>$bsj))->where('name = ?', 'theme:qine');
+$updateRows= $db->query($update);
+echo '<div class="tongzhi">检测到模板备份数据，恢复完成，请等待自动刷新！如果等不到请点击';
+?>
+<a href="<?php Helper::options()->adminUrl('options-theme.php'); ?>">这里</a></div>
+<script language="JavaScript">window.setTimeout("location=\'<?php Helper::options()->adminUrl('options-theme.php'); ?>\'", 2000);</script>
+<?php
+}else{
+echo '<div class="tongzhi">没有模板备份数据，恢复不了哦！</div>';
+}
+}
+if($_POST["type"]=="删除备份数据"){
+if($db->fetchRow($db->select()->from ('table.options')->where ('name = ?', 'theme:qine'))){
+$delete = $db->delete('table.options')->where ('name = ?', 'theme:qine');
+$deletedRows = $db->query($delete);
+echo '<div class="tongzhi">删除成功，请等待自动刷新，如果等不到请点击';
+?>
+<a href="<?php Helper::options()->adminUrl('options-theme.php'); ?>">这里</a></div>
+<script language="JavaScript">window.setTimeout("location=\'<?php Helper::options()->adminUrl('options-theme.php'); ?>\'", 2500);</script>
+<?php
+}else{
+echo '<div class="tongzhi">不用删了！备份不存在！！！</div>';
+}
+}
+}
+echo '<form class="protected" action="?qine" method="post">
+<input type="submit" name="type" class="btn btn-s" value="备份模板数据" />&nbsp;&nbsp;<input type="submit" name="type" class="btn btn-s" value="还原模板数据" />&nbsp;&nbsp;<input type="submit" name="type" class="btn btn-s" value="删除备份数据" /></form>';
+
     $logoCss = new Typecho_Widget_Helper_Form_Element_Text('logoCss', NULL, NULL, _t('站点头像地址'), _t('在这里填入一个图片 URL 地址, 以修改头像'));
     $logo->addInput($logoCss);
 
