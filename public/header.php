@@ -65,7 +65,9 @@
     </script>
 </head>
 <body>
-<header class="header navbar navbar-default ">
+<div class="background-img">
+<header class="header ">
+<div class="header-wide">
     <div id="box_hover" ><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
 
     <h1>
@@ -77,8 +79,9 @@
         <li><a href="<?php $this->options->siteUrl(); ?>">Home</a></li>
         <?php $this->widget('Widget_Contents_Page_List')
         ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
-    </ul>
+    </ul></div>
 </header>
+   </div>
 <?php $this->need('sideroom.php'); ?>
 
 <div class="container">

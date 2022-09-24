@@ -10,7 +10,7 @@
 <!--<script>NProgress.start();</script>-->
 
 
-<div class="content-all">
+<div class="content-all center-block">
 
 <?php $this->need('sidebar.php'); ?>
         <div class="content">

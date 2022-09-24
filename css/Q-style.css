@@ -35,110 +35,7 @@ root:{
     --background-circle: #c0d0ff;
 }
 
-/* cyrillic-ext */
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMRrTEUc.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtM1rTEUc.woff2) format('woff2');
-    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek-ext */
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMVrTEUc.woff2) format('woff2');
-    unicode-range: U+1F00-1FFF;
-}
-/* greek */
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMprTEUc.woff2) format('woff2');
-    unicode-range: U+0370-03FF;
-}
-/* vietnamese */
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMZrTEUc.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMdrTEUc.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMlrTA.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* cyrillic-ext */
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKew72j00.woff2) format('woff2');
-    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek-ext */
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcw72j00.woff2) format('woff2');
-    unicode-range: U+1F00-1FFF;
-}
-/* greek */
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKfA72j00.woff2) format('woff2');
-    unicode-range: U+0370-03FF;
-}
-/* latin-ext */
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcQ72j00.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
 /*@font-face { font-family: 'webmo'; src: url('https://cdn.jsdelivr.net/gh/huiyio/Lib/fonts/AdobeCleanHanSC/AdobeCleanHanSC.eot'); src: url('https://https://cdn.jsdelivr.net/gh/tutuos/Tutu_Misans/tutufont.eot') format('embedded-opentype'), url('https://cdn.jsdelivr.net/gh/tutuos/Tutu_Misans/tutufont.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/tutuos/Tutu_Misans/tutufont.woff') format('woff'), url('https://cdn.jsdelivr.net/gh/tutuos/Tutu_Misans/tutufont.ttf') format('truetype'), url('https://cdn.jsdelivr.net/gh/tutuos/Tutu_Misans/tutufont.svg') format('svg'); font-weight: 400; font-style: normal; font-display: swap; } *:not([class*="icon"]):not(i) { font-family: "webmo" !important; }*/
 body,
 button,
@@ -146,7 +43,7 @@ input,
 select,
 textarea {
     transition: all .2s ease;
-    font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif;
+    font-family: 'Noto Serif SC', serif;
 }
 body {
     color: #4a4a4a;
@@ -182,6 +79,13 @@ a:hover {
     background-size: 1.4rem 1.4rem;
      background: #f7f7f7;
         }
+.background-img{
+    background-image: url("https://cdn.jsdelivr.net/gh/qine233/jsdever-ty/bg.jpg");
+    width: 100%;
+    height: 75%;
+
+    background-size:cover;background-repeat: no-repeat;background-attachment: fixed;
+}
 
 .container {
 
@@ -196,7 +100,7 @@ a:hover {
     /*padding-top: 0px;*/
     /* margin-left: 8px; */
     /*position: fixed;*/
-    background-color: rgba(255, 255, 255);
+    /*background-color: rgba(255, 255, 255);*/
     padding: 0 10% 0 3%;
     /*filter: blur(5px);*/
     box-shadow: 0 4px 8px 0 rgb(7 17 27 / 10%);
@@ -204,11 +108,12 @@ a:hover {
     left: 0;
     right: 0;
     z-index: 999;
+    /*backdrop-filter: blur(2px);*/
     /* position: absolute; */
     box-shadow: 5px 5px 30px #d1d9e6;
-    /*background-color: rgb(255, 255, 255);*/
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 10%;
+    height: 8rem;
     box-shadow: 0 0.5rem 1rem rgb(18 38 63 / 5%);
      margin-top: -20px;
      /*设置flex*/
@@ -217,6 +122,9 @@ a:hover {
     /*justify-content: space-around;*/
     /*flex-wrap: wrap;*/
 
+}
+.header-wide{
+    /*backdrop-filter: none;*/
 }
 #nav_menu {
     display: inline-flex;
@@ -284,7 +192,7 @@ header h1 {
 
 .header a {
 
-    color: rgb(83, 83, 83);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 
 }
@@ -295,7 +203,7 @@ header h1 {
     margin: 0;
     /* width: 100%; */
     height: 12rem;
-    /* font-family: "Exo", sans-serif; */
+    font-family: 'Noto Serif SC', serif;
     color: #fff;
     /*background: linear-gradient(64deg, #71c2f1, #7d58d3, #e73c7ee7);*/
     /* background-size: 400% 400%; */
@@ -394,10 +302,10 @@ header h1 {
 
 /* 内容区域 */
 .content-all {
-    width: ;
+
     /*  height:1000px ; */
      padding: 0 10% 0 8%;
-    margin-top: 50px;
+    margin-top: -25px;
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
@@ -745,7 +653,7 @@ element.style {
     list-style: none;
     display: block;
     float: left;
-    font-family: sans-serif;
+    font-family: 'Noto Serif SC', serif;
 
     border-style: none;
     border-radius: 1rem !important;
@@ -1085,7 +993,7 @@ code {
     color: #7c5454;
     border-radius: 0.2rem !important;
     font-weight: 400;
-    font-family: 'webmo';
+    font-family: 'Noto Serif SC', serif;
     font-size: 1.4rem;
 }
 
@@ -1116,7 +1024,7 @@ pre code {
     background: #36393b;
 
     word-break: break-word;
-    /* font-family: 'webmo'!important; */
+
     padding: 2px;
     text-shadow: none;
     border-radius: 0.5rem !important;
@@ -1348,7 +1256,7 @@ top:0;
     height: 8rem;
     width: 90.2%;
     border-radius: 0.5rem;
-    font-family: inherit;
+    font-family: 'Noto Serif SC', serif;
     border-style: none;
     border-style: solid;
     border-color: rgba(185, 185, 185, 0.356);
