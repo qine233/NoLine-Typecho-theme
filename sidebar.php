@@ -17,13 +17,6 @@
 <div class="button-flex">
              <button class="a-left"><a target="_blank" href="<?php $this->options->logocontacta(); ?>">follow&nbsp&nbspme</a></button>
           </div>
-           <!--  <div class="new-text ">
-
-<ul>
-    <?php $this->widget('Widget_Contents_Post_Recent','pageSize=5')
-               ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
-</ul>
-</div>-->
 
 </div>
 <div class="sibar-all">

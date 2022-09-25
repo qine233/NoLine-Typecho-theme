@@ -1,6 +1,8 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8" />
+<meta charset="<?php $this->options->charset(); ?>">
+<?php $this->header('generator=&template=&pingback=&xmlrpc=&wlw=&commentReply=&rss1=&rss2=&atom='); ?>
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 <meta name="keywords" content="<?php echo $this->fields->keywords ? $this->fields->keywords : htmlspecialchars($this->_keywords); ?>" />
 <meta name="description" content="<?php echo $this->fields->description ? $this->fields->description : htmlspecialchars($this->_description); ?>" />
@@ -18,7 +20,7 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/nprogress.css');  ?>">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/atom-one-dark.min.css">
 
-<?php $this->header(); ?>
+
 
     <script>
         window.onload = function ()
@@ -33,18 +35,24 @@
             var oBox = document.getElementById("sideroom");
             oBtn.onclick = function ()
             {
-                oBox.style.cssText = "display:block; "
+                oBtn2.style.cssText= "display:block;"
+                if(getComputedStyle(sideroom).display=="none"){
+                    oBox.style.cssText = "display:block;"
+                } else{
+                    oBox.style.cssText = "display:none;"
+                }
             };
             oBtn2.onclick = function ()
             {
                 oBox.style.cssText = "display:none;"
+                oBtn2.style.cssText= "display:none;"
             };
             oBtn3.onclick = function ()
             {
 
                 if(getComputedStyle(nav_list_a).display=="none"){
                     oBox3.style.cssText = "display:block;"
-                } else if(getComputedStyle(nav_list_a).display=="block"){
+                } else{
                     oBox3.style.cssText = "display:none;"
                 }
 
@@ -80,9 +88,9 @@
         <?php $this->widget('Widget_Contents_Page_List')
         ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
     </ul></div>
-</header>
+</header><?php $this->need('sideroom.php'); ?>
    </div>
-<?php $this->need('sideroom.php'); ?>
+
 
 <div class="container">
         </div>

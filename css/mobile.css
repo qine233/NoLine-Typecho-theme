@@ -63,12 +63,12 @@
 
     .content-all {
         width: 99%;
-        margin-top: 4rem;
-
+        margin-top: -15rem;
+        padding: 0 2% 0 2%;
     }
 
     .content-list {
-        margin-left: 4.5% !important;
+        margin-left: 0% !important;
         margin-top: 0.7rem;
         /*margin: 0;*/
         /*height: 4rem;*/
@@ -262,7 +262,7 @@ margin-left: 0;
         height: 100%;
         width: 75%;
         background: #f1f9ff;
-        margin-top: 5rem;
+        margin-top: 12%;
         box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
         transition-property:width;
         transition-duration:1.5s ;
@@ -321,7 +321,8 @@ margin-left: 0;
         font-weight: 500;
     }
     .sideroom-blur{
-        position: absolute;
+        display: none;
+        position: fixed;
         top: 0;
         left: 70%;
         width: 30%;
@@ -406,6 +407,9 @@ margin-left: 0;
         margin-top: 1rem;
         width: 100%;
         transition: all .2s ease;
+    }
+    .content-all-post{
+        padding: 0 2% 0 2%;
     }
 }
     #nav_list_b li {
