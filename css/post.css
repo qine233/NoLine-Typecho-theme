@@ -402,3 +402,23 @@ pre, article pre {
     font-size: 1rem;
     margin-top: 2.4rem;
 }
+.post-lists { position: relative;  display: block;   overflow: hidden;}
+.post-list-item { float: left;  width: 33.3333%; height: auto; padding: 15px;  align-items: center;}
+.post-list-item .item-title{font-size: 18px;}
+.post-list-item a{ color: #fff; border-bottom: 0px solid #00000070;}
+.post-list-item-container { position: relative; overflow: hidden;  width: 100%; padding: 0; border-radius: 3px;  background-color: #fff; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04); box-shadow: 0 1px 4px rgba(0,0,0,.04);}
+.post-list-item-container .item-label { position: relative;  height: 130px;    padding: 25px 20px 40px;    background-color: #fff;}
+.post-list-item-container .item-label.bg-purple .item-title a { color: #fff;}
+.post-list-item-container .item-label .item-meta {  position: absolute; right: 0; bottom: 0;  width: 100%;  padding: 0 15px 15px;  text-align: right;}
+.post-list-item-container .item-label .item-meta .item-meta-ico {  display: inline-block;  float: right; width: 42px;  height: 42px; border: 1px solid #eaeaea;  border-radius: 50%;}
+.post-list-item-container .item-label.bg-purple .item-meta .item-meta-date { color: #fff;}
+.post-list-item-container .item-label .item-meta .item-meta-date { font-size: 12px;  position: relative;   float: left;  padding-left: 5px;   text-align:left;   text-transform: none;  color: #f1f1f1;    max-width: 75%; }
+.bg-purple { background-color: #bc99c4!important;}
+.bg-yellow { background-color: #f9bb3c!important;}
+.bg-orange { background-color: #f68e5f!important;}
+.bg-red { background-color: #e8583d!important;}
+.bg-green { background-color: #46c47c!important;}
+.bg-blue { background-color: #6fa3ef!important;}
+.bg-grey { background-color: #f7f7f7!important;}
+.bg-deepgrey { background-color: rgba(0,0,0,.5)!important;}
+.bg-white { background-color: #fff!important;}
