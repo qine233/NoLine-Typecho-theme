@@ -549,7 +549,7 @@ element.style {
 
 .typecho-time {
     margin-left: 5px;
-    background-color: rgb(107, 183, 212);
+    background-color: rgb(69 120 237);
     color: rgb(255, 255, 255);
     border-radius: 0.1rem;
     display: inline-block;
@@ -557,7 +557,13 @@ element.style {
     padding: 0 4px 0 2px;
 
 }
+.viewer-toolbar{
+    display: none;
+}
 
+.viewer-navbar{
+    display: none;
+}
 .content-list-post {
     margin-top: 15px;
     background-color: #fff;

@@ -65,11 +65,11 @@
 /* 评论按钮 */
 .submit {
     border-style: none;
-    height: 2rem;
+    margin-top: 2rem;
     color: white;
     width: 5rem;
     border-radius: 0.3rem;
-    background-color: rgb(0, 174, 255);
+
 
 }
 .submit-alone{
@@ -154,7 +154,7 @@
     margin-bottom: 10px;   text-align: center;
 }
 .submit a{
-    color: white;
+    color: #3b81f7;
 
 }
 .talk-content .text:hover {
@@ -201,12 +201,12 @@ input {
     width: 100%;
 }
 #comment_list {
-background: #f2f6fc;
-    padding: 0.5rem;
+    background: #ffffff;
+    padding: 0.7rem;
     width: 100%;
 }
 .comment-list {
-    margin-top: 2rem;
+    margin-top: -2rem;
     width: 100%;
     padding: 0.5rem;
 }
@@ -221,6 +221,10 @@ background: #f2f6fc;
     flex-direction: column;
     align-items: flex-start;
     align-content: flex-start;
+   background:  #f5faff;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
 }
 
 .copy_code{
@@ -385,4 +389,16 @@ pre, article pre {
     border: 3px solid #c0dcff;
     z-index: 100;
     position: relative;
+}
+.comment-user-flex{
+    display: flex;
+}
+.comment-list-username{
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    margin-top: 2.1rem;
+}
+.comment-list-time{
+    font-size: 1rem;
+    margin-top: 2.4rem;
 }
