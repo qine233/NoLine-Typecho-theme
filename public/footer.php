@@ -2,6 +2,7 @@
 <footer class="footer">
 
 <h3 class="text-ellipsis">&copy;2022 Copyright&nbsp;&nbsp;<a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a><?php $this->options->logoFooter(); ?></h3>
+    <h4 class="text-ellipsis_copy">Powered by Typecho | Theme by <a href="https://github.com/qine233/NoLine-Typecho-theme">Noline</a></h4>
 </footer>
 <script src="<?php $this->options->themeUrl('css/jquery.min.js'); ?>"></script>
 <script src="<?php $this->options->themeUrl('css/pjax.js'); ?>"></script>

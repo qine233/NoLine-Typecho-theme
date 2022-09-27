@@ -951,7 +951,7 @@ margin-left: -4rem;
 }
 /* 底部footer */
 .footer {
-    margin-top: 5rem;
+    /*margin-top: 5rem;*/
     z-index: 999;
     /* margin-left: 150px;
     margin-top: 1.5rem; */
@@ -983,6 +983,11 @@ margin-left: -4rem;
 .text-ellipsis{
     margin-bottom: 0;
 }
+.text-ellipsis_copy{
+    font-size: 12.5px;
+    display: block;
+    text-align: center;}
+
 .footer a{
     color: #0d6efd !important;
 }
@@ -1221,10 +1226,9 @@ top:0;
 
 .footer h3 {
     font-size: 1rem;
-
-    padding: 5rem 0 0 0;
     text-align: center;
     font-weight: 400;
+    display: inline-block;
 }
 
 .footer a {
