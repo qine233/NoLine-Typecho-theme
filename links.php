@@ -24,7 +24,7 @@
                        <h1 class="post-title" itemprop="name headline">「&nbsp&nbsp<?php $this->title() ?>&nbsp&nbsp」</h1>
        <div class="content-text-2 "  id="write">
 
-
+           <ul id="flinks">
 
         <?php $this->content(); ?>
 

@@ -1,7 +1,7 @@
 
 <footer class="footer">
 
-<h3 class="text-ellipsis">&copy;2022 Copyright&nbsp;&nbsp;<a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a></h3>
+<h3 class="text-ellipsis">&copy;2022 Copyright&nbsp;&nbsp;<a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a><?php $this->options->logoFooter(); ?></h3>
 </footer>
 <script src="<?php $this->options->themeUrl('css/jquery.min.js'); ?>"></script>
 <script src="<?php $this->options->themeUrl('css/pjax.js'); ?>"></script>

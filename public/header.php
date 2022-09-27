@@ -35,16 +35,17 @@
             var oBox = document.getElementById("sideroom");
             oBtn.onclick = function ()
             {
+                // oBox.style.cssText = "transform:translateX(100%);"
                 oBtn2.style.cssText= "display:block;"
-                if(getComputedStyle(sideroom).display=="none"){
-                    oBox.style.cssText = "display:block;"
+                if(getComputedStyle(sideroom).transform=="translateX(100%)"){
+                    oBox.style.cssText = "transform: translateX(0);"
                 } else{
-                    oBox.style.cssText = "display:none;"
+                    oBox.style.cssText = "transform: translateX(100%);"
                 }
             };
             oBtn2.onclick = function ()
             {
-                oBox.style.cssText = "display:none;"
+                oBox.style.cssText = "transform: translateX(0);"
                 oBtn2.style.cssText= "display:none;"
             };
             oBtn3.onclick = function ()
@@ -67,13 +68,13 @@
                     oBox4.style.cssText = "display:none;"
                 }
 
-
             };
+
         }
     </script>
 </head>
 <body>
-<div class="background-img">
+<div class="background-img" >
 <header class="header ">
 <div class="header-wide">
     <div id="box_hover" ><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>

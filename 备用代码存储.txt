@@ -18,3 +18,13 @@
                                  <?php $this->widget('Widget_Metas_Category_List')
                                             ->parse('<li><a href="{permalink}">{name}</a> </li>'); ?>
                              </ul>
+
+
+
+
+                             <?php if($this->options->logocontactb){ ?>
+                                <img src="<?php $this->options->logocontactb(); ?>">
+                             <?php }  ?>
+                             <?php else: ?>
+                              <img src="https://cdn.jsdelivr.net/gh/qine233/jsdever-ty/bg.jpg">
+                              <?php endif; ?>
