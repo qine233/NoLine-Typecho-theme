@@ -2,9 +2,9 @@
 
 /**
  * 说说
- * 
- * @package custom 
- * 
+ *
+ * @package custom
+ *
  **/
 
 ?>
@@ -12,31 +12,31 @@
 
 <div class="content-all">
 <?php $this->need('sidebar.php'); ?>
-        <div class="content">
+        <div class="typecho-user-text">
              <!-- <div class="content-list"> -->
-		
-  
-             <div class="comments-a">
+
+
+             <div class="content-list-post">
     <div id="comments-padding-talk"><div class="typecho-header">
 <!-- 判断设置是否允许对当前文章进行评论 -->
 <?php if($this->allow('comment')): ?>
- 
- <h4 id="response"><?php $this->commentsNum('时光动态 (%d)'); ?></h4>
+
+ <h4 id="response"><?php $this->commentsNum('「&nbsp&nbsp时光动态&nbsp&nbsp」'); ?></h4>
  <?php if($this->user->hasLogin()): ?>
  <!-- 输入表单开始 -->
  <form method="post" action="<?php $this->commentUrl() ?>" id="comment_form">
 
      <!-- 如果当前用户已经登录 -->
-     
-    
+
+
          <!-- 显示当前登录用户的用户名以及登出连接 -->
          <p style="margin-left: 4rem;">快来发射今日动态吧
         </p>
 
      <!-- 若当前用户未登录 -->
-   
 
-    
+
+
 
      <!-- 输入要回复的内容 -->
      <div class="talk-content-talk">
@@ -49,8 +49,8 @@
 <?php endif; ?>
     </div></div>
  <div class="talk-list">
- 
-<ol style="  display: flex; 
+
+<ol style="  display: flex;
    flex-wrap: wrap; flex-direction:column-reverse" id="comment_list">
     <?php $this->comments()->to($comments); ?>
         <?php while($comments->next()): ?>
@@ -75,25 +75,25 @@ padding:0.8rem;
                 &nbsp; <?php $comments->date('Y-m-d H:i'); ?>
             </div>
 	    <div class="comment_body"><?php $comments->content(); ?></div>
-	</li>  
-     
+	</li>
+
 
 	<?php endwhile; ?>
-</ol>   
+</ol>
 <!-- <?php $comments->pageNav('« 前一页', '后一页 »'); ?>  -->
  </div>
 </div>
 
 
-             
+
 </div>
 
         </div>
-       
+
         </div>
-	
+
 		<?php $this->need('public/footer.php'); ?>
-		</div>  
+		</div>
 			 </div>
-			
+
 </body>
