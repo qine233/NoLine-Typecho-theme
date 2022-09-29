@@ -42,7 +42,7 @@ button,
 input,
 select,
 textarea {
-    transition: all .2s ease;
+    transition: all 1s ease;
     font-family: 'Noto Serif SC', serif;
 }
 body {
@@ -537,7 +537,7 @@ element.style {
 .typecho-header {
     background-color: #fff;
     border-radius: 0.3rem;
-    box-shadow: 5px 5px 15px #dadadb;
+
     padding-bottom: 10px;
 }
 
@@ -951,7 +951,7 @@ margin-left: -4rem;
 }
 /* 底部footer */
 .footer {
-    /*margin-top: 5rem;*/
+    margin-top: 4rem;
     z-index: 999;
     /* margin-left: 150px;
     margin-top: 1.5rem; */
@@ -1238,56 +1238,77 @@ top:0;
 
 /* 说说 */
 .talk-content-talk {
-
+    padding: 0 3rem;
 }
 
 .talk-content-talk .text:hover {
-    border-style: none;
+
+    min-height: 10rem;
 
 }
 
 .talk-content-talk .text:active {
+    min-height: 10rem;
     border-style: none;
     background-color: rgb(248, 243, 233);
 }
 
 .talk-content-talk .text {
-    padding: 10px 10px 10px 10px;
-    font-size: 1rem;
-    background-color: rgb(238, 238, 238);
+    padding: 10px 10px 10px 10px; */
+font-size: 1rem;
 
-    margin-left: 5%;
     height: 8rem;
-    width: 90.2%;
-    border-radius: 0.5rem;
+
+
     font-family: 'Noto Serif SC', serif;
-    border-style: none;
-    border-style: solid;
-    border-color: rgba(185, 185, 185, 0.356);
+
     border-width: 0.5px;
+    outline: 0;
+    width: 100%;
+    border-color: #b0b0b000;
+    border-radius: 1.5rem;
+    background: #e6f3ff;
+    resize: none;
+    padding: 1rem;
 
 }
 
 .talk-content-talk .submit-talk {
-    margin-left: 46rem;
     border-style: none;
-    height: 2rem;
+    height: 3rem;
     color: white;
-    width: 5rem;
+    width: 100%;
     border-radius: 0.5rem;
-    background-color: #55aef3;
+    background-color: #4482E5;
 
 }
-
+.talk-content-talk .submit-talk:hover{
+    width: 20%;
+}
 .dian {
-    width: 8px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
-    background-color: #13ada1;
+    background-color: #3a8df5;
     position: relative;
     right: 3rem;
+    border: 2px solid #b4d3eb;
 }
-
+.talk-list li::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #0d6efd;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 11px;
+    margin-left: -30px;
+    border-radius: 100%;
+    border: 3px solid #c0dcff;
+    z-index: 100;
+    position: relative;
+}
 .comment_data {
     width: 100%;
     border-style: solid;

@@ -67,7 +67,7 @@
            </div>
 </div>
 </div>
-</div>
+</div></div>
 <?php $this->need('public/footer.php'); ?>
 
 

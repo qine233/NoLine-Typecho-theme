@@ -88,6 +88,9 @@
     margin-top: 1rem;
     transition: all .2s ease;
 }
+.submit-alone:hover{
+    border-radius: 50%;
+}
 /* 针对表单进行布局尝试 */
 .comments-3-text {
     display: flex;
@@ -101,17 +104,15 @@
 
     text-align: center;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 22px;
     height: 3rem;
-    /* border-style: solid;
-    border-right: none;
-    border-top: none;
-    border-left: none;
-    border-width: 1px;
-    border-color: rgb(230, 230, 230); */
+    padding: 2rem;
+
 
 }
-
+.submit-align{
+    text-align: center;
+}
 .comments-3-text .text {
     /* border-radius: 0.3rem; */
     height: 3.7rem;
@@ -202,8 +203,9 @@ input {
 }
 #comment_list {
     background: #ffffff;
-    padding: 0.7rem;
+
     width: 100%;
+    padding: 0 3rem;
 }
 .comment-list {
     margin-top: -2rem;
