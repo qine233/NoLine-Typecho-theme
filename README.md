@@ -4,4 +4,4 @@
 ##### 一个小小tips：下图不是最终写作成果
 ##### 2.0正在写了，但很慢
 #### 2022.9.22大概的完善了很多地方，正在向日常能用发展ing...
-![ ](https://s1.ax1x.com/2022/09/08/vqyqSO.png)
+![ ](https://raw.githubusercontent.com/qine233/NoLine-Typecho-theme/2.0.0-writing/screenshot.png)
