@@ -389,7 +389,7 @@ pre, article pre {
     margin-left: -25px;
     border-radius: 100%;
     border: 3px solid #c0dcff;
-    z-index: 100;
+    z-index: 1;
     position: relative;
 }
 .comment-user-flex{
