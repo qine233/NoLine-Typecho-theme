@@ -139,7 +139,7 @@
   box-shadow: 2px 4px 7px #999;
 }
 #write img {
-  max-width: 100%;
+    width: 100%;
   display: block;
   margin: 10px auto;
   object-fit: contain;
