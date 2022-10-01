@@ -162,7 +162,19 @@ a:hover {
    opacity: 0;
 }
 
-
+.post_index-more{
+    background: #006dffbd;
+    padding: 0 5;
+    /* margin-left: 90%; */
+    /* margin-top: 50%; */
+    /* margin: 50% 90% 0 0; */
+    position: relative;
+    top: -55px;
+    color: #fff;
+}
+.post_index-more a{
+    color: white  !important;
+}
 header h1 {
     display: inline-block;
     margin-top: 3.5rem;

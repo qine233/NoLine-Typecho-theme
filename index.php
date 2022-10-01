@@ -47,6 +47,7 @@ preg_match_all("/\<img.*?src\=(\'|\")(.*?)(\'|\")[^>]*>/i", $this->content, $mat
 <?php $this->excerpt(160, '...');?>
 </p>
 	</div>
+                 <span class="post_index-more"> <?php $this->date('Y年n月d日'); ?></span>
 
 
 <?php endwhile; ?>
