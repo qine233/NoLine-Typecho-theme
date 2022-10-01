@@ -77,7 +77,7 @@ echo '<form class="protected" action="?qine" method="post">
     $logocontacta = new Typecho_Widget_Helper_Form_Element_Text('logocontacta', NULL, NULL, _t('关注按钮对应链接'), _t('在这里填入你的github链接或其他社交平台链接'));
     $logo->addInput($logocontacta);
 
-    $logocontactb = new Typecho_Widget_Helper_Form_Element_Text('logocontactb', NULL,'https://cdn.jsdelivr.net/gh/qine233/jsdever-ty/bg.jpg', _t('主页半屏背景图'), _t('在这里填入你的背景图链接，建议引用外部图床节省网站所在服务器带宽'));
+    $logocontactb = new Typecho_Widget_Helper_Form_Element_Text('logocontactb', NULL,NULL, _t('主页半屏背景图'), _t('在这里填入你的背景图链接，建议引用外部图床节省网站所在服务器带宽'));
     $logo->addInput($logocontactb);
 
     $logoFooter = new Typecho_Widget_Helper_Form_Element_Textarea('logoFooter', NULL, NULL, _t('站点底部版权填写区域，后续会考虑将footer区域拉高，增加更多可自定义内容'), _t('在这里填入你的站点底部代码，例如备案链接等'));
