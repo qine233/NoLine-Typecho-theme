@@ -12,7 +12,8 @@
       6. 支持归档、友链独立页面
       7. 将默认Gravatar头像源变成优先展示QQ头像
       8. 使用谷歌开发者工具评测，seo分数高
-      9. more待发现...
+      9. 自定义背景
+      10. more待发现...
 ![     ](https://raw.githubusercontent.com/qine233/NoLine-Typecho-theme/2.0.0-writing/screenshot.png)
 ![     ](https://raw.githubusercontent.com/qine233/NoLine-Typecho-theme/2.0.0-writing/test.png)
 ##### 例外，关于友链的添加方式，友链的代码是内嵌进了单页模块，当建立了友链单页时，需要在编辑内填写如下字段完成添加
@@ -26,8 +27,7 @@
 # 
 #### 目前在制作过程中还有一些功能或期望待实现
 ```
-1.主题半屏背景的替换，目前有一些原因没有去做，如果需要替换掉，需要找到对应css文件修改背景url
-2.部分展示部分性能不足，后续使用懒加载预加载的方式优化用户交互
-3.首页文章显示增加see more按钮
-4.more...
+1.部分展示部分性能不足，后续使用懒加载预加载的方式优化用户交互
+2.首页文章显示增加see more按钮
+3.more...
 ```
