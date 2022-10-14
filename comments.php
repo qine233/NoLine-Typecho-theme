@@ -40,16 +40,17 @@ $commentLevelClass = $comments->levels > 0 ? ' comment-child' : ' comment-parent
             <form method="post" action="<?php $this->commentUrl() ?>" id="comment-form" role="form">
     <div class="comments-3-text">
 
-
+        <textarea rows="8" cols="50" name="text" id="textarea" placeholder="写出你精彩的想法"  class="textarea" required ><?php $this->remember('text'); ?></textarea>
                 <?php if($this->user->hasLogin()): ?>
                 <p><?php _e('登录身份: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出'); ?> &raquo;</a> <button type="submit" class="submit-alone"><?php _e('发表'); ?></button></p>
                 <?php else: ?>
-                    <div class="comments-unuser">    <input type="text"  placeholder="昵称(*)" name="author" class="text"  value="<?php $this->remember('author'); ?>" />
+                    <div class="comments-unuser">
+                        <input type="text"  placeholder="昵称(*)" name="author" class="text"  value="<?php $this->remember('author'); ?>" />
                         <input type="text" name="mail" class="text" placeholder="邮箱(*)"  value="<?php $this->remember('mail'); ?>" />
                         <input type="text" name="url" class="text" placeholder="网址"  value="<?php $this->remember('url'); ?>" />
 
                     </div>
-                <textarea rows="8" cols="50" name="text" id="textarea" placeholder="写出你精彩的想法"  class="textarea" required ><?php $this->remember('text'); ?></textarea>
+
 
                  <div class="rechap">  <?php spam_protection_math();?></div>
                     <button type="submit" class="submit-alone"><?php _e('发表'); ?></button>
