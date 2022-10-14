@@ -176,7 +176,7 @@ width: 10rem;
         font-size: 8px;margin-left: -1rem;
     }
     .content .entry_text {
-
+        font-size: 1.2rem;
         margin-bottom: 6.5rem;
     }
     .content .entry_data ul {
@@ -312,7 +312,7 @@ margin-left: 0;
         padding: 0.8rem;
         margin-left: -4rem;
         background: #ffffff;
-
+        font-size: 1.3rem;
     }
     #nav_menu-m a{
         color: #202020;

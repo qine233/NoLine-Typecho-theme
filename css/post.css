@@ -85,7 +85,8 @@
     /* background: #448bff linear-gradient(45deg,#448bff,#44e9ff); */
     padding-top: 6px;
     padding-bottom: 6px;
-    margin-top: 1rem;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
     transition: all .2s ease;
 }
 .submit-alone:hover{
@@ -194,7 +195,7 @@ input {
 /* 对评论列表增加样式 */
 .comments-unuser{
     display: flex;
-
+    margin-bottom: 1rem;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
@@ -216,6 +217,9 @@ input {
     margin-top: -6rem;
     margin-left: 5rem;
     width: 73%;
+}
+.rechap{
+    /*margin-top: 2rem;*/
 }
 .comments-type {
     display: flex;
