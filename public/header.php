@@ -75,19 +75,19 @@
 </head>
 <body>
 <div class="background-img" style="background-image: url('<?php $this->options->logocontactb(); ?>')">
-<header class="header ">
+<header class="header " style="color: <?php $this->options->logoLine(); ?>">
 <div class="header-wide">
     <div id="box_hover" ><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
 
     <h1>
-        <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>
+        <a style="color: #ffffff" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>
 
     </h1>
 
     <ul  id="nav_menu">
-        <li><a href="<?php $this->options->siteUrl(); ?>">Home</a></li>
+        <li><a style="color: #ffffff" href="<?php $this->options->siteUrl(); ?>">Home</a></li>
         <?php $this->widget('Widget_Contents_Page_List')
-        ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
+        ->parse('<li><a style="color: #ffffff" href="{permalink}">{title}</a></li>'); ?>
     </ul></div>
 </header><?php $this->need('sideroom.php'); ?>
    </div>

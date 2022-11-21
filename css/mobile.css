@@ -251,7 +251,7 @@ margin-left: 0;
         /*background-color: currentColor;*/
         /*background-clip: content-box;*/
         /*color: blue;*/
-        background: white;
+        background: transparent;
         z-index: 15;
     }
     .sideroom{
