@@ -1318,7 +1318,7 @@ font-size: 1rem;
     margin-left: -30px;
     border-radius: 100%;
     border: 3px solid #c0dcff;
-    z-index: 100;
+    z-index: 2;
     position: relative;
 }
 .comment_data {
