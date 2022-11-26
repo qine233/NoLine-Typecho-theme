@@ -1,4 +1,5 @@
 ## TYPECHO主题-NoLine 3.0
+#### 请注意本分支为3.0版本中途开发备份，请勿下载！
 ##### 麻烦给个star支持一下哦；默认分支即为稳定分支，分支采用一些甜点单词命名
 # ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)本项目使用JetBrains旗下软件编写
 
