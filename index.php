@@ -6,13 +6,14 @@
  * @link https://www.idkzr.com/
  */
 ?>
+
 <?php $this->need('public/header.php'); ?>
 <!--<script>NProgress.start();</script>-->
 
 
 <div class="content-all center-block">
 
-<?php $this->need('sidebar.php'); ?>
+
         <div class="content">
 
              <div class="content-list">
@@ -66,6 +67,6 @@ preg_match_all("/\<img.*?src\=(\'|\")(.*?)(\'|\")[^>]*>/i", $this->content, $mat
 <!--<script>NProgress.done();</script>-->
 
 
-			 </div>
+			 </div> </div>
 
 </body>
