@@ -1,8 +1,11 @@
-## TYPECHO主题-NoLine 3.0
-#### 请注意本分支为3.0版本中途开发备份，请勿下载！
-##### 麻烦给个star支持一下哦；默认分支即为稳定分支，分支采用一些甜点单词命名
-# ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)本项目使用JetBrains旗下软件编写
+## TYPECHO主题-NoLine
 
+#### 是我第一次学习前端基础不久创作的一款主题，尚不稳定，如果在使用途中有什么问题与建议提交至issues，本主题采用周更的方式修复问题或者采取部分可用建议
+#### 主题预览：https://www.idkzr.com/  ，如果你是第一次下载主题，请直接克隆代码，不要下载release内的，克隆内的代码均为最新提交
+##### 麻烦给个star支持一下哦；默认分支即为最新分支，分支采用一些甜点单词命名
+# ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)本项目使用JetBrains旗下软件编写
+##### 2022.10.2 大概的已经写完了，目前的状态：是给自用，因为我个人认为主题的质量相比较别的主题还远远不足。如果在使用过程中遇到问题可以反馈至issues ！
+##### 2022.10.18 目前大致已经做完了，并无打算往外宣传的准备，如果路过表示喜欢请给star就好啦
 #
 ##### 目前这款主题用到了bootstrap框架，highlights代码高亮等
       1. 响应式布局，移动端舒适体验
@@ -15,6 +18,8 @@
       8. 使用谷歌开发者工具评测，seo分数高
       9. 自定义背景
       10. more待发现...
+![     ](https://raw.githubusercontent.com/qine233/NoLine-Typecho-theme/Marshmallow/screenshot.png)
+![     ](https://raw.githubusercontent.com/qine233/NoLine-Typecho-theme/Marshmallow/test.png)
 ##### 例外，关于友链的添加方式，友链的代码是内嵌进了单页模块，当建立了友链单页时，需要在编辑内填写如下字段完成添加
 ```
 <li>网站名称</li>
@@ -22,4 +27,12 @@
 <li>网站图标</li>
 <li>网站简介</li>
 ```
-
+##### 如上的添加方式重复即可添加更多友链
+# 
+#### 目前在制作过程中还有一些功能或期望待实现
+```
+1.部分展示部分性能不足，后续使用懒加载预加载的方式优化用户交互
+2.首页文章显示详细例如时间、评论数、等
+3.手机端性能不足
+4.wait more...
+```
