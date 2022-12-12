@@ -120,7 +120,7 @@
 
         </h1>
         <?php if($this->is('index')): ?>
-            <h1 class="post-title" itemprop="name headline">🍁&nbsp&nbsp<?php $this->options->title(); ?>&nbsp&nbsp🌏</h1>
+        <h1 class="post-title" itemprop="name headline">🍁&nbsp&nbsp<?php $this->options->title(); ?>&nbsp&nbsp🌏</h1>
         <?php else: ?>
             <h1 class="post-title" itemprop="name headline">🍁&nbsp&nbsp<?php $this->title(); ?>&nbsp&nbsp🌏</h1>
         <?php endif; ?>
