@@ -2,6 +2,9 @@
 .nav_top{
     display: none;
 }
+.submit-alone:hover{
+    border-radius: 0.6rem !important;
+}
     .header {
         position: fixed;
         z-index: 999;
