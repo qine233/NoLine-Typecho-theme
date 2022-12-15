@@ -1,7 +1,7 @@
 <?php
 /**
- * “ 青益的第一款主题... ”
- * @package QINE
+ * “ 一款简单的主题，请设置完再看最后效果并修改... ”
+ * @package NOLINE_2.0
  * @author QINE
  * @link https://www.idkzr.com/
  */
