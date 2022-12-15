@@ -214,9 +214,10 @@ input {
     padding: 0.5rem;
 }
 .typecho-user-text{
-    margin-top: -6rem;
+
     margin-left: 5rem;
-    width: 73%;
+
+    z-index: 5;
 }
 .rechap{
     /*margin-top: 2rem;*/

@@ -265,7 +265,7 @@ margin-left: 0;
         margin-top: 12%;
         box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
         transition-duration:0.35s ;
-        transition-timing-function:linear;
+        transition-timing-function: cubic-bezier(0.93, 0, 0.09, 0.91);
         transition-delay:0s;
     }
     .alaver-img{
