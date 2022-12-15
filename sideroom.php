@@ -31,6 +31,7 @@
                                       <div id="nav_list_b">  <div class="nav_list_a-padding"> <?php $this->widget('Widget_Metas_Category_List')
                                            ->parse('<li><a href="{permalink}">{name}</a> </li>'); ?>
                                </ul>
-                             </div></div></div>
+                             </div></div></div></div>
                 <div class="sideroom-blur" id="sideroom-blur">
-
+                </div>
+</div>

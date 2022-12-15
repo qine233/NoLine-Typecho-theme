@@ -10,13 +10,14 @@
 ?>
 <?php $this->need('public/header.php'); ?>
 
-<div class="content-all">
+<div class="content-all content-all-post">
 <?php $this->need('sidebar.php'); ?>
         <div class="typecho-user-text">
              <!-- <div class="content-list"> -->
 
 
              <div class="content-list-post">
+
     <div id="comments-padding-talk"><div class="typecho-header">
 <!-- 判断设置是否允许对当前文章进行评论 -->
 <?php if($this->allow('comment')): ?>

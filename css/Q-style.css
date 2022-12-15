@@ -82,10 +82,8 @@ a:hover {
 .background-img{
     background-image: url("https://cdn.jsdelivr.net/gh/qine233/jsdever-ty/bg.jpg");
     width: 100%;
-    height: 103%;
+    height: 75%;
     background-size:cover;background-repeat: no-repeat;
-    position: fixed;
-    z-index: -1;
 }
 .container {
     margin-top: 0;
@@ -95,7 +93,7 @@ a:hover {
     /* padding-right: 18%; */
     /*padding-top: 0px;*/
     /* margin-left: 8px; */
-    position: fixed;
+    /*position: fixed;*/
     /*background-color: rgba(255, 255, 255);*/
     padding: 0 10% 0 3%;
     /*filter: blur(5px);*/
@@ -103,13 +101,13 @@ a:hover {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 999;
     backdrop-filter: blur(16px);
     /* position: absolute; */
     box-shadow: 5px 5px 30px #d1d9e6;
     background-color: rgba(255, 255, 255, 0);
     width: 100%;
-    height: 6.2rem;
+    height: 8rem;
     box-shadow: 0 0.5rem 1rem rgb(18 38 63 / 5%);
      margin-top: -20px;
      /*设置flex*/
@@ -121,16 +119,6 @@ a:hover {
 }
 .header-wide{
     /*backdrop-filter: none;*/
-}
-.header-left{
-    position: fixed;
-    top: 15%;
-    left: 2rem;
-    backdrop-filter: blur(56px);
-    height: 75%;
-    width: 7.5rem;
-    z-index: 2;
-    border-radius: 1.8rem;
 }
 #nav_menu {
     display: inline-flex;
@@ -146,6 +134,10 @@ a:hover {
 }
 #nav_menu a{
     font-size: 15px;
+}
+#pjax-container{
+    display: flex;
+    justify-content: center;
 }
 .daohang5:hover{
     background-color: #0d6efd;
@@ -214,34 +206,8 @@ header h1 {
     text-decoration: none;
 
 }
-#percentage{
-    display: block;
-    height: 3rem;
-    text-align: center;
-    margin-top: 1.4rem;
-
-    font-size: 2rem;
-}
-.ri-align-top{
-    display: block;
-    text-align: center;
-    margin-top: 1.4rem;
 
 
-    font-size: 2rem;
-
-}
-.ri-align-top:before{
-    content: ' ';
-}
-.ri-align-bottom{
-    display: block;
-
-    text-align: center;
-    margin-top: 1.4rem;
-
-    font-size: 2rem;
-}
 .content-last .bg_color {
 
     margin: 0;
@@ -257,62 +223,44 @@ header h1 {
     border-top-right-radius: 0.3rem;
 }
 
-.header-left .logo {
-    width: 7.8rem;
-
-    border-radius: 1.5rem;
-
-    border: 3px solid #ffffff;
-    transition: -webkit-transform 0.75s;
-    box-shadow: 0 0.5rem 1rem rgb(18 38 63 / 5%);
-}
-.header-left .ava_logo{
-    width: 7.8rem; height: 7.8rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    transition-duration: 0.35s;
-    transition-timing-function: cubic-bezier(0.93, 0, 0.09, 0.91);
-    overflow: hidden;
-}
-.header-left .ava_logo:hover{
-    width: 24rem;
-    background: white;
-    border-radius: 1.5rem;
-    box-shadow: 0 4px 15px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
-}
-
-.header-left .name {
-    display: block;
-    margin-top: -6.5rem;
-    font-size: 1.8rem;
-    margin-left: 10rem;
-}
-
-.header-left .name-talk {
-    display: block;
-
-    font-size: 1.2rem;
-    margin-left: 10rem;
-}
-.header-home{
-    width: 5rem;
-    height: 5rem;
+.contact .logo {
     border-radius: 50%;
-    margin-left: 1.3rem;
-    background: white;
-    margin-top: 3.5rem;
-    box-shadow: 18px 18px 30px #e0e0e073;
+    width: 90px;
+    /* margin-left: 46%;
+    margin-top: 35px; */
+    display: inline-block;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f6f6f6;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 105px;
+
+
+    transition: -webkit-transform 0.75s;
 }
-.icon{
-    width: 3rem;
+
+
+.contact .name {
+    margin-top: 35px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+    font-weight: 400;
+    font-size: 1.8rem;
 }
-.iconHome{
-    margin-top: -7.5rem;
-    margin-left: 1.06rem;
+
+.contact .name-talk {
+
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 15px;
 }
+
 .button-flex {
 
-    margin-top: 1.6rem;
+    margin-top: 7px;
     display: flex;
     justify-content: space-around;
     /*border-style: solid;*/
@@ -336,7 +284,7 @@ header h1 {
     border: none;
     width: 6rem;
     color: white;
-    width: 100%;
+    width: 24.5rem;
 }
 
 
@@ -364,26 +312,24 @@ header h1 {
 
 /* 内容区域 */
 .content-all {
-    margin-top: 50%;
+    width: 100%;
     /*  height:1000px ; */
-
+     padding: 0 10% 0 8%;
+    margin-top: -25px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: flex-start;
-    background: rgba(255, 255, 255, 0);
-    width: 80%;
-    border-radius: 1.5rem;
-    backdrop-filter: blur(16px);
+    justify-content: center;
 }
 
 .content {
 
     /*margin-left: 3rem;*/
     margin-right: 2.2rem;
-
+     margin-top: -10rem;
     /* padding-top: 18px; */
     padding: 22px 0 0 0 !important;
-
+    width: 70rem;
     /* min-height: 970px; */
     /* height: 970px; */
     /* background-color: rgba(233, 232, 232, 0.692); */
@@ -445,9 +391,17 @@ header h1 {
 
 }
 
-element.style {
+footer .nav_top{
+    background: white;
+    min-height: 4.5rem;
+    width: 4.5rem;
+    position: fixed;
+    right: 5rem;
+    bottom: 15rem;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
+    border-radius: 1rem;
+    padding-top: 0.7rem;
 }
-
 .mac {
     height: 4rem;
     display: block;
@@ -648,38 +602,6 @@ element.style {
     font-weight: 400;
 }
 
-.content-hello_allway{
-    width: 100%;
-    display: flex;
-    padding: 2rem;
-}
-
-.content-hello {
-    width: 32rem;
-    height: 22rem;
-    background: #d3dfe5b5;
-    border-radius: 1.5rem;
-
-    box-shadow: 0px 7px 20px 1px #8b8b8b30;
-    padding: 2rem;
-
-}
-.content-hello_h4{
-    color: #ff5e5e;
-    display: block;
-    background: white;
-    border-radius: 1rem;
-    padding: 1rem;
-    text-shadow: 0 0.1875rem 0.3125rem rgb(0 0 0 / 30%);
-}
-.content-hello_commit{
-    width: 71.1%;
-    height: 22rem;
-    background: #d3dfe5b5;
-    border-radius: 1.5rem;
-    padding:2rem;
-    margin-left: 2rem;
-}
 .content .post {
     overflow: hidden;
     display: flex;
@@ -1026,17 +948,10 @@ display:-webkit-box;
 .siber-comments{
     margin-top: 1.5rem;
 margin-left: -4rem;
-    display: flex;
-    flex-wrap: wrap;
 }
 .siber-comments li{
     list-style: none;
     margin-bottom: 1rem;
-    width: 20rem;
-    background: white;
-    margin: 0 1rem 1rem 1rem;
-    border-radius: 0.3rem;
-    padding: 6px;
 }
 .siber-com{
     margin-top: 2px;
@@ -1183,17 +1098,14 @@ hr {
     padding-bottom: 10px;
 }
 
-
 .post-title {
     text-align: center;
     height: 3rem;
-    font-weight: 400;
-    font-size: 1.8rem;
-    color: #ffffff;
+    font-weight: 600;
+    font-size: 2.6rem;
+    color: #3989fd;
     padding-bottom: 4rem;
-    border-bottom: none;
-    width: 94%;
-
+    border-bottom: 1px solid #c1cfdb52;
 }
 
 .site-search {
@@ -1270,7 +1182,7 @@ top:0;
     margin-left: 11px;
     width: 300px;
     /* height: 35rem; */
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
     text-align: center;
 
 }
@@ -1281,13 +1193,18 @@ top:0;
 }
 
 .sibar-data-a {
-    margin-top: 1.8rem;
+    margin-top: 2.6rem;
     display: flex;
     align-items: center;
+    /*border-style: solid;*/
+    /*border-top: none;*/
+    /*border-left: none;*/
+    /*border-right: none;*/
+    /*border-width: 0.5px;*/
+    /*border-color: #cfcfcfbb;*/
     overflow: hidden;
     justify-content: space-around;
-    background: white;
-    border-radius: 1rem;
+
 }
 
 .sibar-data-a li {
@@ -1295,7 +1212,7 @@ top:0;
     /* display: inline; */
     font-size: 1.3rem;
     font-weight: 400;
-     text-align: center;
+    /* text-align: center; */
     width: 4rem;
     margin-top: 0.1rem;
     color: #008EEB;
@@ -1312,14 +1229,12 @@ top:0;
     border-width: 3.5px;
     border-color: #ffffff3b; */
     border-radius: 0.2rem;
-    background: rgba(255, 255, 255, 0);
+    background: #ffffff;
     padding: 1px 1px 1px 1px;
     border-radius: 0.5rem;
 
 }
-.sibar-data-a-ul_heightLine{
-    /*border: #0dcaf0 1px solid;*/
-}
+
 .sibar-data-b {
     /* text-align: center; */
 

@@ -1,4 +1,4 @@
-/* Make clicks pass-through */
+ny/* Make clicks pass-through */
 #nprogress {
     pointer-events: none;
 }
@@ -8,11 +8,11 @@
     background: linear-gradient(64deg, #71c2f1, #7d58d3, #e73c7ee7);
     position: fixed;
     z-index: 1031;
-    bottom: 0;
+    top: 0;
     left: 0;
 
     width: 100%;
-    height: 3px;
+    height: 2px;
 }
 
 /* Fancy blur effect */

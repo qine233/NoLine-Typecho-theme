@@ -1,7 +1,7 @@
 
 
 <?php $this->need('public/header.php'); ?>
-<div class="content-all">
+<div class="content-all content-all-post"><?php $this->need('sidebar.php'); ?>
 
 
 
