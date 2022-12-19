@@ -3,7 +3,6 @@
 #### 是我第一次学习前端基础不久创作的一款主题
 #### 主题预览：https://www.idkzr.com/  
 ##### 麻烦给个star支持一下哦；默认分支即为最新分支，分支采用一些甜点单词命名
-# ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)本项目使用JetBrains旗下软件编写
 ##### 2022.10.2 大概的已经写完了，目前的状态：是给自用，因为我个人认为主题的质量相比较别的主题还远远不足。如果在使用过程中遇到问题可以反馈至issues ！
 ##### 2022.10.18 目前大致已经做完了，并无打算往外宣传的准备，如果路过表示喜欢请给star就好啦
 #
@@ -34,3 +33,4 @@
 1. 主页面div规格问题（待修改）
 2. wait more...
 ```
+# ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)本项目使用JetBrains旗下软件编写
