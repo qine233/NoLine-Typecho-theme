@@ -52,7 +52,7 @@
  <div class="talk-list">
 
 <ol style="  display: flex;
-   flex-wrap: wrap; flex-direction:column-reverse;     padding-bottom: 3rem;" id="comment_list">
+   flex-wrap: wrap; flex-direction:column-reverse;     padding-bottom: 3rem;" id="comment_list_talk">
     <?php $this->comments()->to($comments); ?>
         <?php while($comments->next()): ?>
 	<li style="
