@@ -49,7 +49,7 @@ preg_match_all("/\<img.*?src\=(\'|\")(.*?)(\'|\")[^>]*>/i", $this->content, $mat
 	</div>
                  <span class="post_index-more"> <?php $this->date('Y年n月d日'); ?></span>
 
-
+   <span class="post_index-more_cate">  <?php $this->commentsNum('%d 评论'); ?></span>
 <?php endwhile; ?>
 
   </div>   <div class="nav-page Page navigation"  >

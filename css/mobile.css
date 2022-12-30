@@ -85,7 +85,8 @@
         margin-left: 0px !important;
     }
     .post-images img{
-        height: 12rem;
+        height: 21.2rem;
+        width: 15rem;
     }
     /* 文章图片 */
    /* .post-images img {*/
@@ -122,24 +123,30 @@
 
         height: 1000px;
     }
-
+.post_index-more{
+    top: -22px;
+}
+.post_index-more_cate{
+    left: 79%;
+    top: -40px;
+}
     .closebtn {
         width: 5rem;
         margin-top: 10rem;
     }
     .content .post{
-        height: 25.7rem;
+        /*height: 25.7rem;*/
     }
     .content  .entry_title {
         position: relative;
-        top: 0px;
-        left: -11px;
-        /*margin-left: -13px;*/
+        /* top: -4.7rem; */
+        left: 14.4rem;
+        /* margin-left: -13px; */
         letter-spacing: 0.1px !important;
         font-size: 1.3rem !important;
         height: 1.5rem !important;
-        width: 20rem !important;
-        margin-top: -15.7rem;
+        width: 19rem !important;
+        margin-top: -17.7rem;
         margin-left: 1.2rem;
     }
 
@@ -172,7 +179,10 @@ width: 10rem;
         left: unset !important;
         top: unset !important;
         }
+.post-images {
 
+    height: 15rem;
+}
         .content .entry_data li {
             /*display: inline;*/
         /* padding: 0; */
@@ -183,6 +193,7 @@ width: 10rem;
     .content .entry_text {
         font-size: 1.2rem;
         margin-bottom: 6.5rem;
+        margin-left: 16.4rem !important;
     }
     .content .entry_data ul {
         display: block !important;
