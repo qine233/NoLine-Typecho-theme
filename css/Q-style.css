@@ -172,7 +172,7 @@ a:hover {
     padding: 0 5;
     margin-left: 2%;
     position: relative;
-    top: -45px;
+    top: -15px;
     color: #2b4764a1;
     border-radius: 1.8rem;
     backdrop-filter: blur(16px);
@@ -756,7 +756,7 @@ footer .nav_top{
     font-weight: 400;
     /* margin-top: -10px; */
     margin-left: 27rem;
-    margin-bottom: 6rem;
+    margin-bottom: 2.2rem;
     color: #878a90;
     overflow: hidden;
     /* display: contents; */
@@ -772,7 +772,7 @@ footer .nav_top{
     background: #d2d2d2;
     color: #696969;
     position: relative;
-    top: -67px;
+    top: -37px;
     left: 88%;
     box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
 }
@@ -1335,19 +1335,24 @@ font-size: 1rem;
     position: relative;
 }
 .comment_data {
-    width: 100%;
+    display: inline-block;
     border-style: solid;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-
-    border-color: rgba(185, 185, 185, 0.356);
-    border-width: 0.5px;
+    /* border-left: none; */
+    /* border-right: none; */
+    /* border-top: none; */
+    border-color: rgb(233 233 233);
+    border-width: 3px;
+    background: #2389ffc9;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 0 2rem;
 
 }
-
+.comment_data a{
+    color: #fff;
+}
 .talk-list li {
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
 }
 
 .typecho-category {
