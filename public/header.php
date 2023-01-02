@@ -52,8 +52,14 @@
             var oBtn2 = document.getElementById("sideroom-blur");
             var oBtn = document.getElementById("box_hover");
             var oBox = document.getElementById("sideroom");
+            var backBFB = document.getElementById("background-img");
+            var adminBFB = '<?php $this->options->logocontactbBFB(); ?>' ;
+            if (adminBFB == 1){
+             backBFB.style.cssText = "height: 45%; background-image: url('<?php $this->options->logocontactb() ?>"
+            }
             oBtn.onclick = function ()
             {
+
                 // oBox.style.cssText = "transform:translateX(100%);"
                 oBtn2.style.cssText= "display:block;"
                 if(getComputedStyle(sideroom).transform=="translateX(100%)"){
@@ -111,7 +117,7 @@
     </script>
 </head>
 <body>
-<div class="background-img" style="background-image: url('<?php $this->options->logocontactb(); ?>')">
+<div class="background-img" id="background-img" style="background-image: url('<?php $this->options->logocontactb(); ?>;')">
     <header class="header " style="color: <?php $this->options->logoLine(); ?>">
         <div class="header-wide">
             <div id="box_hover" ><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
