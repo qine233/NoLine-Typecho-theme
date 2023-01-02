@@ -11,14 +11,14 @@
 <span id="sidebar-tags">the tags</span>
 <?php $this->widget('Widget_Metas_Tag_Cloud','ignoreZeroCount=1&limit=15')->to($tags); ?>
      <?php while($tags->next()):?>
-     <span style="background-color:#3881f3;" id="tags"> <a href="<?php $tags->permalink();?>"><?php $tags->name();?></a></span>
+     <span style="background-color:#fff;color:#111" id="tags"> <a href="<?php $tags->permalink();?>"><?php $tags->name();?></a></span>
       <?php endwhile;?>
 </div>
 <span id="sidebar-tags">recent&nbsp&nbspcommit</span>
 <ul class="siber-comments">
     <?php $this->widget('Widget_Comments_Recent','ignoreAuthor=true&pageSize=5')->to($comments); ?>
     <?php while($comments->next()): ?>
-        <li><?php $email=$comments->mail; $imgUrl = getGravatar($email);echo '<img src="'.$imgUrl.'" width="40px" height="40px" style="border-radius: 50%;" >'; ?>&nbsp;&nbsp;&nbsp;<?php $comments->author(false); ?> <a href="<?php $comments->permalink(); ?>"><span class="siber-com"> <?php $comments->excerpt(50, '...'); ?></span></a></li>
+        <li><?php $email=$comments->mail; $imgUrl = getGravatar($email);echo '<img src="'.$imgUrl.'" width="40px" height="40px" style="border-radius: 50%;border: 3px solid #ffffff;box-shadow: 0 4px 10px rgb(0 0 0 / 19%), 0 0 1px rgb(0 0 0 / 10%);" >'; ?>&nbsp;&nbsp;&nbsp;<?php $comments->author(false); ?> <a href="<?php $comments->permalink(); ?>"><span class="siber-com"> <?php $comments->excerpt(50, '...'); ?></span></a></li>
     <?php endwhile; ?>
 </ul>
 </div></div></div>
