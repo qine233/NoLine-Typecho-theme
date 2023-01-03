@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <meta name="keywords" content="<?php echo $this->fields->keywords ? $this->fields->keywords : htmlspecialchars($this->_keywords); ?>" />
     <meta name="description" content="<?php echo $this->fields->description ? $this->fields->description : htmlspecialchars($this->_description); ?>" />
-    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/atom-one-dark.min.css">
+
     <script src="<?php $this->options->themeUrl('css/viewer.js'); ?>"></script>
     <script src="<?php $this->options->themeUrl('css/nprogress.js'); ?>"></script>
     <script src="<?php $this->options->themeUrl('css/smooth-scroll.js'); ?>"></script>
@@ -19,8 +18,8 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/mobile.css');  ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/viewer.css');  ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/nprogress.css');  ?>">
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/atom-one-dark.min.css">
-
     <script>
         $(document)
             .on('click', 'a[href*="#"]', function() {
@@ -117,7 +116,7 @@
     </script>
 </head>
 <body>
-<div class="background-img" id="background-img" style="background-image: url('<?php $this->options->logocontactb(); ?>')">
+<div class="background-img" id="background-img" style="background-image: url('<?php $this->options->logocontactb(); ?>;')">
     <header class="header " style="color: <?php $this->options->logoLine(); ?>">
         <div class="header-wide">
             <div id="box_hover" ><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>

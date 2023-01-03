@@ -32,7 +32,7 @@
 </ul> -->
 <div class="archives"> <ul>
     <?php $this->widget('Widget_Metas_Category_List')
-               ->parse('<li><a href="{permalink}">{name}</a> </li>'); ?>
+               ->parse('<li><a href="{permalink}">{name}</a> <span id="archives_span">{count}</span></li>'); ?>
 </ul>  </div>
 
 </div>

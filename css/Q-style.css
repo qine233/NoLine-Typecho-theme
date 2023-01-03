@@ -434,7 +434,6 @@ footer .nav_top{
 .archives {
     /* display: flex; */
     min-height: 20rem;
-    max-height: 25rem;
     margin-top: -6px;
     /*  margin-left: 18.5rem; */
     /* color: white */
@@ -446,7 +445,7 @@ footer .nav_top{
 .archives a {
 
     color: rgb(89, 89, 89) !important;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 /*.archives a:before {*/
 /*    content: "";*/
@@ -940,6 +939,16 @@ display:-webkit-box;
     border-radius: 0.1rem;
     color: #545454;
 }
+#archives_span{
+    background: #84b6ff;
+    color: #fff;
+    /* padding: 0 0.9rem; */
+    width: 3rem !important;
+    display: inline-block;
+    border-radius: 3rem;
+    text-align: center;
+    height: 1.6rem;
+}
 .siber-comments{
     margin-top: 1.5rem;
 margin-left: -4rem;
@@ -1222,9 +1231,14 @@ hr {
 
 .sibar-data-b li {
 
-    display: inline;
+    display: flex;
     list-style: none;
     font-size: 1.1rem;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: center;
 
 }
 
