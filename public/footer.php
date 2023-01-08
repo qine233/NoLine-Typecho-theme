@@ -1,12 +1,12 @@
 
 <footer class="footer">
 
-<h3 class="text-ellipsis">&copy;2022 Copyright&nbsp;&nbsp;<a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a><?php $this->options->logoFooter(); ?></h3>
+<h3 class="text-ellipsis">&copy;2023 Copyright&nbsp;&nbsp;<a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a><?php $this->options->logoFooter(); ?></h3>
     <h4 class="text-ellipsis_copy">Powered by Typecho | Theme by <a href="https://github.com/qine233/NoLine-Typecho-theme">Noline</a></h4>
     <div class="nav_top">  <div id="percentage"></div> </div>
 </footer>
-<script src="<?php $this->options->themeUrl('css/jquery.min.js'); ?>"></script>
-<script src="<?php $this->options->themeUrl('css/pjax.js'); ?>"></script>
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-2-M/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
 <script>
 
 

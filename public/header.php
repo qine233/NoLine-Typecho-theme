@@ -7,19 +7,20 @@
     <meta name="keywords" content="<?php echo $this->fields->keywords ? $this->fields->keywords : htmlspecialchars($this->_keywords); ?>" />
     <meta name="description" content="<?php echo $this->fields->description ? $this->fields->description : htmlspecialchars($this->_description); ?>" />
 
-    <script src="<?php $this->options->themeUrl('css/viewer.js'); ?>"></script>
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/viewerjs/1.10.4/viewer.min.js"></script>
     <script src="<?php $this->options->themeUrl('css/nprogress.js'); ?>"></script>
     <script src="<?php $this->options->themeUrl('css/smooth-scroll.js'); ?>"></script>
     <title><?php $this->archiveTitle(array('category' => '分类 %s 下的文章', 'search' => '包含关键字 %s 的文章', 'tag' => '标签 %s 下的文章', 'author' => '%s 发布的文章'), '', ' - '); ?><?php $this->options->title(); ?></title>
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/bootstrap.min.css');  ?>">
+    <link rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/typora-indigo.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/Q-style.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/post.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/mobile.css');  ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/viewer.css');  ?>">
+    <link rel="stylesheet" href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/viewerjs/1.10.4/viewer.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/nprogress.css');  ?>">
-    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/atom-one-dark.min.css">
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/11.3.1/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+       <link rel="shortcut icon" href="<?php $this->options->logoCss(); ?>" />
     <script>
         $(document)
             .on('click', 'a[href*="#"]', function() {
