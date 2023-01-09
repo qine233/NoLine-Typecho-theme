@@ -560,13 +560,14 @@ footer .nav_top{
 }
 
 .typecho-time {
-    margin-left: 5px;
-    background-color: rgb(69 120 237);
+    margin-top: 0.6rem;
+    margin-left: 6px;
+    background-color: rgb(72 119 228);
     color: rgb(255, 255, 255);
-    border-radius: 0.1rem;
+    border-radius: 0.5rem;
     display: inline-block;
     font-size: 0.9rem;
-    padding: 0 4px 0 2px;
+    padding: 1px 5px 1px 5px;
 
 }
 .viewer-toolbar{
@@ -804,7 +805,7 @@ display:-webkit-box;
     font-size: 1.7rem;
     overflow: hidden;
     width: 60%;
-    height: 2.1rem;
+    height: 2rem;
     text-overflow: ellipsis;
     display: -webkit-box;
     padding-left: 5px;
@@ -1100,6 +1101,7 @@ hr {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
+    padding-top: 0.1rem;
 }
 
 .post-title {
@@ -1109,7 +1111,6 @@ hr {
     font-size: 2.1rem;
     color: #0000009c;
     padding-bottom: 4rem;
-    border-bottom: 1px solid #c1cfdb52;
 }
 
 .site-search {

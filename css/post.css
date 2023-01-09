@@ -467,7 +467,9 @@ pre, article pre {
 .post-list-item .item-title {
     font-size: 18px;
 }
-
+.post-list-item .item-title a{
+    color: white !important;
+}
 .post-list-item a {
     color: #fff;
     border-bottom: 0px solid #00000070;
@@ -520,7 +522,7 @@ pre, article pre {
 .post-list-item-container .item-label .item-meta .item-meta-date {
     font-size: 12px;
     position: relative;
-    float: left;
+    /*float: left;*/
     padding-left: 5px;
     text-align: left;
     text-transform: none;
