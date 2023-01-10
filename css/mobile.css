@@ -274,15 +274,15 @@ margin-left: 0;
         display: block;
         z-index: 10;
         position: fixed;
+        top: 5%;
         left: -75%;
         height: 100%;
         width: 75%;
         background: #f1f9ff;
-        margin-top: 12%;
         box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
-        transition-duration:0.35s ;
-        transition-timing-function:linear;
-        transition-delay:0s;
+        transition-duration: 0.35s;
+        transition-timing-function: linear;
+        transition-delay: 0s;
     }
     .alaver-img{
         width: 68px;
