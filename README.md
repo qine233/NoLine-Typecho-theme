@@ -15,8 +15,8 @@
       8. 使用谷歌开发者工具评测，seo分数高
       9. 自定义背景
       10. more待发现...
-![     ](https://raw.githubusercontent.com/qine233/NoLine-Typecho-theme/Marshmallow/screenshot.png)
-![     ](https://raw.githubusercontent.com/qine233/NoLine-Typecho-theme/Marshmallow/test.png)
+![     ](https://developer.qcloudimg.com/http-save/yehe-9513775/1bf7d0bc8e0d24f49026feea78293776.png?imageView2/2/w/1620)
+![     ](https://developer.qcloudimg.com/http-save/yehe-9513775/22b30addc088fc76fbf57c0cfcd86fef.png?imageView2/2/w/1620)
 ##### 例外，关于友链的添加方式，友链的代码是内嵌进了单页模块，当建立了友链单页时，需要在编辑内填写如下字段完成添加
 ```
 <li>网站名称</li>
