@@ -26,9 +26,5 @@
 ```
 ##### 如上的添加方式重复即可添加更多友链
 # 
-#### 目前在制作过程中还有一些功能或期望待实现
-```
-1. 主页面div规格问题（待修改）
-2. wait more...
-```
+
 # ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)本项目使用JetBrains旗下软件编写
