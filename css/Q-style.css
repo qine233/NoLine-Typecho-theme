@@ -937,7 +937,7 @@ display:-webkit-box;
 .tagCount{
     display: inline-block;
     margin-left: 0.5rem;
-    min-width: 1.7rem !important;
+    width: 1.7rem !important;
     background: #e7e7e7;
     text-align: center;
     border-bottom-right-radius: 0.2rem;
@@ -952,12 +952,12 @@ display:-webkit-box;
     color: #545454;
 }
 #archives_span{
-    background: #84b6ff;
-    color: #fff;
+    background: #dfdfdfb8;
+    color: #696969;
     /* padding: 0 0.9rem; */
-    width: 3rem !important;
+    min-width: 3rem !important;
     display: inline-block;
-    border-radius: 3rem;
+    border-radius: 0.3rem;
     text-align: center;
     height: 1.6rem;
 }
