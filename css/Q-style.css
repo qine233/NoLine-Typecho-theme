@@ -937,7 +937,7 @@ display:-webkit-box;
 .tagCount{
     display: inline-block;
     margin-left: 0.5rem;
-    width: 1.7rem !important;
+    min-width: 1.7rem !important;
     background: #e7e7e7;
     text-align: center;
     border-bottom-right-radius: 0.2rem;
