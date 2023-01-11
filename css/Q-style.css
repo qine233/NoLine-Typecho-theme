@@ -924,13 +924,24 @@ display:-webkit-box;
 }
 #tags{
     display: inline-block;
-
-    /*background: #70b6ff;*/
-    padding: 2px 4px 2px 4px;
-    margin-bottom: 3px;
-    margin-right: 2px;
-    border-radius: 0.2rem;
-
+    margin-bottom: 6px;
+    margin-right: 3px;
+    align-items: center;
+    background-color: whitesmoke !important;
+    border-radius: 4px;
+    color: #4a4a4a;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    padding-left: 0.75em;
+}
+.tagCount{
+    display: inline-block;
+    margin-left: 0.5rem;
+    width: 1.7rem !important;
+    background: #e7e7e7;
+    text-align: center;
+    border-bottom-right-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
 }
 #sidebar-tags{
     display: block;

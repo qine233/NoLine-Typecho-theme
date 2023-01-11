@@ -11,7 +11,7 @@
 <span id="sidebar-tags">the tags</span>
 <?php $this->widget('Widget_Metas_Tag_Cloud','ignoreZeroCount=1&limit=15')->to($tags); ?>
      <?php while($tags->next()):?>
-     <span style="background-color:#fff;color:#111" id="tags"> <a href="<?php $tags->permalink();?>"><?php $tags->name();?></a></span>
+     <span style="background-color:#fff;color:#111" id="tags"> <a href="<?php $tags->permalink();?>"><?php $tags->name();?></a><span class="tagCount"><?php $tags->count(); ?></span></span>
       <?php endwhile;?>
 </div>
 <span id="sidebar-tags">recent&nbsp&nbspcommit</span>
