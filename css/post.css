@@ -263,7 +263,9 @@ input {
     margin-top: -18px;
     word-break: break-word;
 }
-
+#comment_list p{
+    font-size: 1.3rem !important;
+}
 .comment-list {
     margin-top: -2rem;
     width: 100%;
