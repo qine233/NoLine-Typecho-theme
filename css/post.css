@@ -122,11 +122,11 @@
 .comments-3-text .text {
     /* border-radius: 0.3rem; */
     height: 3.7rem;
-    border-radius: 1rem;
+    border-radius: 0.4rem;
     width: 30%;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0);
-    background-color: #e6f3ff;
+    background: #e6ebf1;
     margin-top: 1.2rem;
 
 }
@@ -191,10 +191,10 @@ input {
     outline: 0;
     width: 100%;
     border-color: #b0b0b000;
-    border-radius: 1.5rem;
-    background: #e6f3ff;
+    border-radius: 0.4rem;
     resize: none;
     padding: 1rem;
+    background: #e6ebf1;
 }
 
 #textarea:focus {
@@ -214,12 +214,12 @@ input {
 }
 
 #comment_list {
+    display: table;
     background: #ffffff;
-    width: 100%;
-    padding: 0 1rem;
-    border: 1px solid #94caff;
-    border-radius: 1.5rem;
-    min-height: 4rem;
+    padding: 1rem 1rem 0 1rem;
+    border-radius: 0.4rem;
+    min-height: 3.6rem;
+    margin-left: 4.5rem;
 }
 
 .comment-list {
@@ -244,9 +244,9 @@ input {
     flex-direction: column;
     align-items: flex-start;
     align-content: flex-start;
-    background: #e4f2ffc2;
+    background: #e6ebf1;
     padding: 1rem;
-    border-radius: 0.8rem;
+    border-radius: 0.3rem;
     margin-top: 2rem;
 }
 
