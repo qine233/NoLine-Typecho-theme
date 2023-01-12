@@ -27,7 +27,7 @@ echo $commentClass;
             <cite class="fn"><?php $comments->author(); ?></cite>
         </div>
         <div class="comment-meta">
-            <a href="<?php $comments->permalink(); ?>"><?php $comments->date('Y-m-d H:i'); ?></a>
+            <a href="<?php $comments->permalink(); ?>"><?php $comments->date('Y年m月d日 H:i'); ?></a>
             <span class="comment-reply"><?php $comments->reply(); ?></span>
         </div>
         <?php $comments->content(); ?>

@@ -7,9 +7,11 @@
     list-style: none;
 }
 
-*
-
-/
+* {
+    /* -webkit-box-sizing: border-box; */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 .text-tream li {
     /*list-style: url(https://cdn.jsdelivr.net/gh/zc1351856278/jsdever-ty@main/list-style.png);*/
@@ -65,14 +67,52 @@
 /* 评论按钮 */
 .submit {
     border-style: none;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: white;
     width: 5rem;
-    border-radius: 0.3rem;
 
 
 }
-
+.nav-page .current a {
+    background: #84a0ca;
+    color: white !important;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
+}
+.nav-page a {
+    border-style: none;
+    border-radius: 0.3rem !important;
+    width: 4rem;
+    height: 4rem;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
+    font-weight: 400;
+    text-align: center;
+    padding: 9px 0 0 0px;
+    color: #000000 !important;
+    background: white;
+    padding-top: 1.2rem !important;
+}
+.nav-page li {
+    text-align: center;
+    list-style: none;
+    display: block;
+    float: left;
+    font-family: 'Noto Serif SC', serif;
+    border-style: none;
+    border-radius: 1rem !important;
+    padding-top: 7px;
+    margin-left: 6;
+}
 .submit-alone {
     /* top: 21rem; */
     /* border-style: none; */
@@ -219,7 +259,8 @@ input {
     padding: 1rem 1rem 0 1rem;
     border-radius: 0.4rem;
     min-height: 3.6rem;
-    margin-left: 4.5rem;
+    margin-left: 5rem;
+    margin-top: -18px;
 }
 
 .comment-list {
@@ -431,14 +472,15 @@ pre, article pre {
 .comment-list-username {
     font-size: 1.5rem;
     padding: 0 0.5rem;
-    margin-top: 2.1rem;
+    margin-top: 1rem;
 }
 
 .comment-list-time {
     font-size: 1rem;
-    margin-top: 2.4rem;
-    margin-bottom: 0.8rem;
-
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    margin-left: 5rem;
+    color: #8d8d8d;
 }
 
 #cancel-comment-reply-link {

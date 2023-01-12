@@ -71,7 +71,10 @@ $commentLevelClass = $comments->levels > 0 ? ' comment-child' : ' comment-parent
         <!-- 评论的内容 -->
         <?php $comments->listComments(); ?>
         <!-- 评论page -->
-        <?php $comments->pageNav('上一页', '下一页', 0, '..'); ?>
+
+        <div class="nav-page Page navigation"  >
+            <?php $comments->pageNav('<', '>', 1, '...', array('wrapTag' => 'ul', 'wrapClass' => 'pagination' )  ); ?>
+        </div>
     </div>
 </div>
 <?php endif; ?>
