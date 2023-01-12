@@ -1,7 +1,11 @@
 <?php
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
-
+/* 获取模板版本号 */
+function NolineVersion()
+{
+    return "2.0";
+}
 function themeConfig($logo)
 {
     $db = Typecho_Db::get();
