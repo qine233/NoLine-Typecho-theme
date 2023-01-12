@@ -1,6 +1,6 @@
 <?php
 /**
- * “ 一款简单的主题，请设置完再看最后效果并修改... ”
+ * “ 一款简单的主题，请设置完再看最后效果并修改，主题文件夹务必命名为Noline ”
  * @package NOLINE_2.0
  * @author QINE
  * @link https://www.idkzr.com/
