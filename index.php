@@ -24,7 +24,7 @@ preg_match_all("/\<img.*?src\=(\'|\")(.*?)(\'|\")[^>]*>/i", $this->content, $mat
         if($imgCount >= 1){
         $img = $matches[2][0];
         }else{
-        $img="/usr/themes/qine/nbg2.jpg";
+        $img="/usr/themes/Noline/nbg2.jpg";
         }
         echo <<<Html
         <p class="post-images">
