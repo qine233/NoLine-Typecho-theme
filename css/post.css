@@ -235,6 +235,7 @@ input {
     resize: none;
     padding: 1rem;
     background: #e6ebf1;
+    font-size: 1.3rem;
 }
 
 #textarea:focus {
