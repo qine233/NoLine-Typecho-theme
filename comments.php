@@ -14,11 +14,11 @@ $commentLevelClass = $comments->levels > 0 ? ' comment-child' : ' comment-parent
 <div id="<?php $comments->theId(); ?>" class="comments-type">
    <div class="comment-user-flex"> <?php $email=$comments->mail; $imgUrl = getGravatar($email);echo '<img src="'.$imgUrl.'" width="45px" height="45px" style="border-radius: 20%;box-shadow: 2px 2px 3px #e1e1e1;" >'; ?>
     <h5 class="comment-list-username"><?php $comments->author(); ?></h5>
-    <h5 class="comment-list-time"><?php $comments->date('Y-m-d H:i'); ?></h5>
     <p class="submit"><?php $comments->reply(); ?></p></div>
     <div id="comment_list">
         <?php $comments->content(); ?>
     </div>
+    <h5 class="comment-list-time"><?php $comments->date('Y年m月d日 H:i'); ?></h5>
     <?php if ($comments->children) { ?>
     <?php $comments->threadedComments($options); ?>
     <?php } ?>
@@ -60,7 +60,7 @@ $commentLevelClass = $comments->levels > 0 ? ' comment-child' : ' comment-parent
             </form>
         </div>
         <?php else : ?>
-        <h3><?php _e('评论已走丢'); ?></h3>
+        <h4><?php _e('评论已走丢'); ?></h4>
         <?php endif; ?>
 
         <!-- 回复列表 -->
@@ -71,7 +71,7 @@ $commentLevelClass = $comments->levels > 0 ? ' comment-child' : ' comment-parent
         <!-- 评论的内容 -->
         <?php $comments->listComments(); ?>
         <!-- 评论page -->
-        <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+        <?php $comments->pageNav('上一页', '下一页', 0, '..'); ?>
     </div>
 </div>
 <?php endif; ?>
