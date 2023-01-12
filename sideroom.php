@@ -3,7 +3,7 @@
 <div class="bg_color-sideroom">
 <img class="alaver-img" src="<?php $this->options->logoCss(); ?>">
  <h1 class="name"><?php $this->options->logoName(); ?></h1>
- <h1 class="name-talk">心若向阳，无畏伤悲</h1>
+ <h1 class="name-talk"><?php $this->options->logobg(); ?></h1>
 </div>
 
 
