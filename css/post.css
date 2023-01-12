@@ -261,6 +261,7 @@ input {
     min-height: 3.6rem;
     margin-left: 5rem;
     margin-top: -18px;
+    word-break: break-word;
 }
 
 .comment-list {
