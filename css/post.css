@@ -61,7 +61,7 @@
     background-color: white;
     box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
     border-radius: 0.3 #comments-paddingrem;
-    padding: 0.3rem 2rem 2rem 1rem;
+    padding: 0.3rem 2rem 2rem 2rem;
 }
 
 /* 评论按钮 */
@@ -138,7 +138,7 @@
 /* 针对表单进行布局尝试 */
 .comments-3-text {
     display: flex;
-    margin: 0 1%;
+    margin: 0 0.5%;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -156,7 +156,8 @@
 }
 
 .submit-align {
-    text-align: center;
+    text-align: right;
+    padding: 0 3rem;
 }
 
 .comments-3-text .text {
@@ -578,7 +579,7 @@ pre, article pre {
 #comment_list_talk{
     background: #ffffff;
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 3.8%;
     border-radius: 1.5rem;
     min-height: 4rem;
 }

@@ -1268,17 +1268,15 @@ hr {
 
 /* 说说 */
 .talk-content-talk {
-    padding: 0 3rem;
+    padding: 0 3.1rem;
 }
 
 .talk-content-talk .text:hover {
 
-    min-height: 10rem;
 
 }
 
 .talk-content-talk .text:active {
-    min-height: 10rem;
     border-style: none;
     background-color: rgb(248, 243, 233);
 }
@@ -1287,7 +1285,7 @@ hr {
     padding: 10px 10px 10px 10px; */
 font-size: 1rem;
 
-    height: 8rem;
+    height: 10rem;
 
 
     font-family: 'Noto Serif SC', serif;
@@ -1296,8 +1294,8 @@ font-size: 1rem;
     outline: 0;
     width: 100%;
     border-color: #b0b0b000;
-    border-radius: 1.5rem;
-    background: #e6f3ff;
+    border-radius: 0.3rem;
+    background: #f1f1f1;
     resize: none;
     padding: 1rem;
 
@@ -1307,13 +1305,13 @@ font-size: 1rem;
     border-style: none;
     height: 3rem;
     color: white;
-    width: 100%;
-    border-radius: 0.5rem;
-    background-color: #4482E5;
+    width: 5rem;
+    border-radius: 0.2rem;
+    background-color: #839dc8;
 
 }
 .talk-content-talk .submit-talk:hover{
-    width: 20%;
+    background-color: #a3b1cd;
 }
 .dian {
     width: 13px;
@@ -1326,40 +1324,58 @@ font-size: 1rem;
 }
 .talk-list li::before {
     content: '';
-    width: 14px;
-    height: 14px;
-    background: #0d6efd;
+    width: 10px;
+    height: 10px;
+    background: #00ffaf;
     display: inline-block;
     vertical-align: middle;
-    margin-top: -2px;
-    margin-right: 11px;
-    margin-left: -30px;
+    margin-top: px;
+    /* margin-right: 11px; */
+    /* margin-left: -30px; */
     border-radius: 100%;
-    border: 3px solid #c0dcff;
+    border: 5px solid #ffffff21;
     z-index: 2;
     position: relative;
+    left: 36px;
+    top: 47px;
+}
+#talkIMG{
+    width: 45px;
+    border-radius: 0.4rem;
+    position: relative;
+    right: 1px;
 }
 .comment_data {
-    display: inline-block;
-    border-style: solid;
-    /* border-left: none; */
-    /* border-right: none; */
-    /* border-top: none; */
-    border-color: rgb(233 233 233);
-    border-width: 3px;
-    background: #2389ffc9;
-    color: #fff;
-    border-radius: 2rem;
-    padding: 0 2rem;
+
+    display: block;
+    padding: 0 5.2rem 0 0;
 
 }
 .comment_data a{
-    color: #fff;
+    color: #151515;
+}
+.comment_body{
+    background: #c2d0e478;
+    padding: 10px;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    display: block;
+    width: 100%;
+    margin-top: -4.5rem;
+    border: 3px solid #ebf0ff;
+    box-shadow: 0 5px 8px rgb(29 35 54 / 15%), 0 0 2px rgb(0 0 0 / 12%);
+    margin-bottom: 20px;
+    color: #464750;
+    font-size: 1.28rem;
 }
 .talk-list li {
-    letter-spacing: 0.2rem;
+    list-style: none;
 }
-
+.talkUserTitle{
+    border-bottom: 1px solid #5b5b5b21;
+    display: flex;
+    justify-content: space-between;
+}
 .typecho-category {
     display: inline-block;
     padding: 0.1px 4px 0.1px 4px;
