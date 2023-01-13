@@ -57,7 +57,7 @@
    flex-wrap: wrap;     flex-direction: column;     padding-bottom: 3rem; " id="comment_list_talk">
                     <?php $this->comments()->to($comments); ?>
                     <?php while($comments->next()): ?>
-                    <li id="list-talk-list-talk <?php $comments->theId(); ?>">
+                    <li class="listTalkc" id="list-talk-list-talk <?php $comments->theId(); ?>">
                         <div class="comment_data">
                             <!-- <?php echo $comments->sequence(); ?>.  -->
                             <img id="talkIMG" src="<?php $this->options->logoCss(); ?>"/>
@@ -74,6 +74,9 @@
 
 
                     <?php endwhile; ?>
+                    <div class="nav-page Page navigation"  >
+                        <?php $comments->pageNav('<', '>', 1, '...', array('wrapTag' => 'ul', 'wrapClass' => 'pagination' )  ); ?>
+                    </div>
                 </ol>
                 <!-- <?php $comments->pageNav('« 前一页', '后一页 »'); ?>  -->
             </div>

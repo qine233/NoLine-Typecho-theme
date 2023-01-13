@@ -1322,7 +1322,7 @@ font-size: 1rem;
     right: 3rem;
     border: 2px solid #b4d3eb;
 }
-.talk-list li::before {
+.talk-list .listTalkc::before {
     content: '';
     width: 10px;
     height: 10px;
