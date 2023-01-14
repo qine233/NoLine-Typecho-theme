@@ -1,4 +1,5 @@
 ##### readme中所有图片皆为开发中截图，不为实际截图，具体移步下方演示
+###### 可以点一个项目的star，鼓励一下开发者哦！
 ![sreen](https://ask8088-private-1251520898.cos.ap-guangzhou.myqcloud.com/developer-images/article/9513775/f114ytrp29.png?q-sign-algorithm=sha1&q-ak=AKID2uZ1FGBdx1pNgjE3KK4YliPpzyjLZvug&q-sign-time=1673418534;1673425734&q-key-time=1673418534;1673425734&q-header-list=&q-url-param-list=&q-signature=677663f1407e5cc9915668191f08119ba88165a3)
 ## TYPECHO主题-NoLine
 ### 注意！使用前务必设置好主页背景图！再根据背景图颜色填写你需要的导航栏字体色
