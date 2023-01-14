@@ -2,7 +2,7 @@
 ![sreen](https://ask8088-private-1251520898.cos.ap-guangzhou.myqcloud.com/developer-images/article/9513775/f114ytrp29.png?q-sign-algorithm=sha1&q-ak=AKID2uZ1FGBdx1pNgjE3KK4YliPpzyjLZvug&q-sign-time=1673418534;1673425734&q-key-time=1673418534;1673425734&q-header-list=&q-url-param-list=&q-signature=677663f1407e5cc9915668191f08119ba88165a3)
 ## TYPECHO主题-NoLine
 ### 注意！使用前务必设置好主页背景图！再根据背景图颜色填写你需要的导航栏字体色
-### 主题文件夹务必命名为Noline，建议PHP版本在7.4
+### 主题文件夹务必命名为Noline，建议PHP版本在7.3以及以上 7.4最佳
 #### 是我第一次学习前端基础不久创作的一款主题 , 在release内可以看到近期更新日志
 #### 主题预览：https://www.idkzr.com/  
 ##### 麻烦给个star支持一下哦；默认分支即为最新分支！
