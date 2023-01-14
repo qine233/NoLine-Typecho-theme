@@ -113,7 +113,15 @@
             $('#percentage').on('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
         };
 
-
+        window.onscroll = function () {
+            $(document).on('scroll', function () {
+                if ($(document).scrollTop() <= 150) {
+                    $('.header').addClass('nobg').removeClass('hasbg');
+                } else {
+                    $('.header').removeClass('nobg p1').addClass('hasbg');
+                }
+            });
+        }
     </script>
 </head>
 <body>

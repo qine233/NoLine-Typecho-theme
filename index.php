@@ -7,10 +7,9 @@
  */
 ?>
 <?php $this->need('public/header.php'); ?>
-<!--<script>NProgress.start();</script>-->
 
 
-<div class="content-all center-block">
+<div class="content-all center-block" >
 
 <?php $this->need('sidebar.php'); ?>
         <div class="content">
@@ -25,15 +24,9 @@ preg_match_all("/\<img.*?src\=(\'|\")(.*?)(\'|\")[^>]*>/i", $this->content, $mat
         $img = $matches[2][0];
         }else{
         $img="/usr/themes/Noline/nbg2.jpg";
-        }
-        echo <<<Html
-        <p class="post-images">
-            <a href="{$this->permalink}" title="{$this->title}">
-                <img src="{$img}" alt="{$this->title}">
-            </a>
-        </p>
-
-        Html;
+        };
+        $CCimg="<p class='post-images'><a href='{$this->permalink}' title='{$this->title}'><img src='{$img}' alt='{$this->title}'></a></p>";
+        echo $CCimg;
         ?>
     </div>
 	<h2 class="entry_title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
