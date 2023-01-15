@@ -111,9 +111,6 @@
                 if (fullWindowHeightInPercentage >= 100) percentage.innerHTML = '<svg t="1670852648630" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="839" width="32" height="32"><path d="M766.08 880.896l-226.56-111.104a34.176 34.176 0 0 1 29.888-61.44l185.792 91.264 80.192-549.12-361.216 433.408v201.408a34.112 34.112 0 0 1-68.16 0V672.64a35.072 35.072 0 0 1 8.128-23.296l340.224-408.384-545.536 283.072 128.576 66.688a35.2 35.2 0 0 1 15.296 46.592 33.152 33.152 0 0 1-44.288 15.36L122.432 555.84a35.008 35.008 0 0 1-15.936-17.024 33.856 33.856 0 0 1 14.016-45.696L870.08 104.32a35.2 35.2 0 0 1 16.192-3.904c16.704-0.32 31.104 11.52 34.112 27.904a35.392 35.392 0 0 1-0.64 16.512l-103.68 710.08a34.24 34.24 0 0 1-28.864 28.992 33.408 33.408 0 0 1-21.12-3.008z" p-id="840" fill="#8a8a8a"></path></svg>';
             }
             $('#percentage').on('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-        };
-
-        window.onscroll = function () {
             $(document).on('scroll', function () {
                 if ($(document).scrollTop() <= 150) {
                     $('.header').addClass('nobg').removeClass('hasbg');
@@ -121,7 +118,7 @@
                     $('.header').removeClass('nobg p1').addClass('hasbg');
                 }
             });
-        }
+        };
     </script>
 </head>
 <body>
