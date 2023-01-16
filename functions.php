@@ -240,3 +240,5 @@ filter_method(textarea, badwords);
     }
 }
 
+
+

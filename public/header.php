@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <meta name="keywords" content="<?php echo $this->fields->keywords ? $this->fields->keywords : htmlspecialchars($this->_keywords); ?>" />
     <meta name="description" content="<?php echo $this->fields->description ? $this->fields->description : htmlspecialchars($this->_description); ?>" />
-
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-2-M/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
     <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/viewerjs/1.10.4/viewer.min.js"></script>
     <script src="<?php $this->options->themeUrl('css/nprogress.js'); ?>"></script>
     <script src="<?php $this->options->themeUrl('css/smooth-scroll.js'); ?>"></script>
@@ -120,6 +121,7 @@
             });
         };
     </script>
+
 </head>
 <body>
 <div class="background-img" id="background-img" style="background-image: url('<?php $this->options->logocontactb(); ?>')">

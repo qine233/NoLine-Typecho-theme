@@ -1127,7 +1127,17 @@ hr {
 
 
 }
-
+.nextWide{
+display: flex;
+    justify-content: space-around;
+    margin-left: 2rem;
+}
+.nextWide .next{
+    background: #8596ae;
+    color: white !important;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+}
 #a-search{
     /*border-bottom-left-radius: 0.8rem;*/
     /*border-top-left-radius: 0.8rem;*/
