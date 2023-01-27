@@ -1,5 +1,5 @@
-## TYPECHO主题-NoLine  -优化阅读，爱上码字
-##### readme中所有图片皆为开发中截图，不为实际截图，具体移步下方演示
+## TYPECHO主题-NoLine      
+###  💬优化阅读，爱上写字
 ###### 可以点一个项目的star，鼓励一下开发者哦！
 ![sreen](https://ask8088-private-1251520898.cos.ap-guangzhou.myqcloud.com/developer-images/article/9513775/f114ytrp29.png?q-sign-algorithm=sha1&q-ak=AKID2uZ1FGBdx1pNgjE3KK4YliPpzyjLZvug&q-sign-time=1673418534;1673425734&q-key-time=1673418534;1673425734&q-header-list=&q-url-param-list=&q-signature=677663f1407e5cc9915668191f08119ba88165a3)
 
@@ -31,4 +31,4 @@
 ##### 如上的添加方式重复即可添加更多友链
 # 
 
-# ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)本项目使用JetBrains旗下软件编写
+###### 本项目使用JetBrains旗下软件编写
