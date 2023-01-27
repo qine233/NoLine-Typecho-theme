@@ -1,5 +1,5 @@
 ## TYPECHO主题-NoLine      
-###  💬优化阅读，爱上写字
+###  💬优化阅读，爱上写作
 ###### 可以点一个项目的star，鼓励一下开发者哦！
 ![sreen](https://ask8088-private-1251520898.cos.ap-guangzhou.myqcloud.com/developer-images/article/9513775/f114ytrp29.png?q-sign-algorithm=sha1&q-ak=AKID2uZ1FGBdx1pNgjE3KK4YliPpzyjLZvug&q-sign-time=1673418534;1673425734&q-key-time=1673418534;1673425734&q-header-list=&q-url-param-list=&q-signature=677663f1407e5cc9915668191f08119ba88165a3)
 
