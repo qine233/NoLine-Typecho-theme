@@ -36,7 +36,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(96 140 235);
+    background-color: rgb(141 155 186);
     border-radius: 2rem;
 }
 
@@ -441,7 +441,6 @@ pre, article pre {
     background: #161616;
     position: relative;
     padding-top: 30px;
-    overflow-y: hidden;
     box-shadow: 0 10px 30px 0 rgb(0 0 0 / 40%);
     min-height: auto !important;
 }
