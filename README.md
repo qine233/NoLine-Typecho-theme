@@ -1,7 +1,7 @@
 ## TYPECHO主题-NoLine      
 ###  💬优化阅读，爱上写作
 ###### 可以点一个项目的star，鼓励一下开发者哦！
-![...](https://ask8088-private-1251520898.cos.ap-guangzhou.myqcloud.com/developer-images/article/9513775/f114ytrp29.png?q-sign-algorithm=sha1&q-ak=AKID2uZ1FGBdx1pNgjE3KK4YliPpzyjLZvug&q-sign-time=1674909373;1674916573&q-key-time=1674909373;1674916573&q-header-list=&q-url-param-list=&q-signature=b096e1a4a19cfe2bf7d2b39a6cd0bb1acf2c7160)
+![...](https://cloud.idkzr.com/f/YWh1/mb.jpg)
 
 ### 注意！使用前务必设置好主页背景图！再根据背景图颜色填写你需要的导航栏字体色
 ### 主题文件夹务必命名为Noline，建议PHP版本在7.3以及以上 7.4最佳
