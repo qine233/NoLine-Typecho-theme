@@ -32,6 +32,10 @@
     .site-search {
         display: none;
     }
+    .nextWide{
+        margin-left: 0;
+    }
+
     .crumbs_patch{
         margin-top:1.45rem;
         margin-left:1.8rem;
@@ -274,7 +278,7 @@ margin-left: 0;
         display: block;
         z-index: 10;
         position: fixed;
-        top: 5%;
+        top: 6%;
         left: -75%;
         height: 100%;
         width: 75%;
@@ -296,7 +300,7 @@ margin-left: 0;
         margin-left: 32%;
     }
     .sibar-data-a{
-        background: #3989fd;
+        background: #ffffff;
         border-radius: 0.4rem;
         box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
     }
@@ -304,11 +308,11 @@ margin-left: 0;
         padding: 0 5%;
     }
     .sibar-data-a ul{
-        background: #3989fd;
+        background: #ffffff;
 
     }
     .sibar-data-a ul li{
-        color: white;
+        color: #1d1d1d;
         padding: 0.5px;
         text-align: center;
     }
@@ -375,7 +379,7 @@ margin-left: 0;
         height: 15vh;
         padding: 2rem;
         color: #fff;
-        background: linear-gradient(231deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background: linear-gradient(231deg, #8bcbff, #8c5bff, #2f7087, #000000);
         background-size: 400% 400%;
         animation: gradientBG 15s ease infinite;
     }
