@@ -168,9 +168,9 @@ a:hover {
     display: block;
     background: #9cd2ff3b;
     padding: 0 5;
-    margin-left: 2%;
+    margin-left: 5%;
     position: relative;
-    top: -15px;
+    top: -35px;
     color: #2b4764a1;
     border-radius: 1.8rem;
     backdrop-filter: blur(16px);
@@ -739,30 +739,34 @@ footer .nav_top{
 }
 .content .entry_text {
     height: 12rem;
+    /* width: 10rem; */
     /* overflow: hidden; */
     text-overflow: ellipsis;
     font-size: 1.3rem;
     font-weight: 400;
     /* margin-top: -10px; */
-    margin-left: 27rem;
+    margin-left: 5.7rem;
     margin-bottom: 2.2rem;
-    color: #878a90;
+    color: rgb(31 40 53 / 79%);
     overflow: hidden;
     /* display: contents; */
     /* display: block; */
+    width: 44%;
     -webkit-box-orient: vertical;
     padding-right: 10px;
+    position: relative;
+    top: -36px;
+    z-index: 2;
 }
 
 .post_index-more_cate{
-    border: 2px solid #cbcbcb;
     padding: 0 10px;
     border-radius: 1.2rem;
     background: #d2d2d2;
     color: #696969;
     position: relative;
-    top: -37px;
-    left: 88%;
+    top: -49px;
+    left: 86%;
     box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
 }
 
@@ -789,20 +793,20 @@ display:-webkit-box;
 }
 
 .content .entry_title a {
-    color: rgb(83, 83, 83);
+    color: rgb(31 40 53);
     text-decoration: none;
     font-weight: 400;
 }
 
 .content .entry_title {
     letter-spacing: 1px;
-    /* position: relative; */
-    /* top: 2px; */
+     position: relative;
+    top: -45px;
     /* left: 8px; */
     margin-top: -22.2rem;
     font-size: 1.7rem;
     overflow: hidden;
-    width: 60%;
+    width: 45%;
     height: 2rem;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -816,7 +820,9 @@ display:-webkit-box;
     border-bottom: none;
     border-color: rgb(53, 111, 220);
     border-width: 3px;
-    margin-left: 27rem;
+
+    margin-left: 5.3rem;
+    z-index: 2;
 }
 
 .content .entry_data {
@@ -1187,17 +1193,24 @@ display: flex;
 .post-images {
     width: 70rem;
     height: 20rem;
+    backdrop-filter: blur(22px);
+    margin: 40px 80px !important;
+    background: #ffffff8f;
+    transform: scale(1.2);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
+    overflow: hidden;
 }
 
 
 .post-images img {
-    width: 25rem;
-    height: 22rem;
+    width: 23rem;
+    height: 20rem;
     /* border-radius: 0.5rem; */
     object-fit: cover;
     /* opacity: 0.9; */
     position: relative;
     top: 0;
+    margin-left: 56%;
 }
 
 

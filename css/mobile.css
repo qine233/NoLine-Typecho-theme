@@ -128,11 +128,11 @@
         height: 1000px;
     }
 .post_index-more{
-    top: -22px;
+    /*top: -22px;*/
 }
 .post_index-more_cate{
     left: 79%;
-    top: -40px;
+    top: -56px;
 }
     .closebtn {
         width: 5rem;
@@ -144,7 +144,7 @@
     .content  .entry_title {
         position: relative;
         /* top: -4.7rem; */
-        left: 14.4rem;
+        left: 1rem;
         /* margin-left: -13px; */
         letter-spacing: 0.1px !important;
         font-size: 1.3rem !important;
@@ -184,7 +184,7 @@ width: 10rem;
         top: unset !important;
         }
 .post-images {
-
+    margin: 32px 39px !important;
     height: 15rem;
 }
         .content .entry_data li {
@@ -196,8 +196,8 @@ width: 10rem;
     }
     .content .entry_text {
         font-size: 1.2rem;
-        margin-bottom: 6.5rem;
-        margin-left: 16.4rem !important;
+        margin-bottom: 5.5rem;
+        margin-left: 3.4rem !important;
     }
     .content .entry_data ul {
         display: block !important;
