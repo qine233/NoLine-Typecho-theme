@@ -1,4 +1,4 @@
-## TYPECHO主题-NoLine      
+## TYPECHO主题-NoLine      [](https://img.shields.io/github/downloads/qine233/NoLine-Typecho-theme/total.svg?style=flat-square)
 ###  💬优化阅读，爱上写作
 ###### 可以点一个项目的star，鼓励一下开发者哦！
 ![...](https://cloud.idkzr.com/f/YWh1/mb.jpg)
