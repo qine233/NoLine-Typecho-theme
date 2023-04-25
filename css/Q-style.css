@@ -82,7 +82,7 @@ a:hover {
 .background-img{
 
     width: 100%;
-    height: 75%;
+    height: 45%;
     background-size:cover;background-repeat: no-repeat;
 }
 .container {
@@ -147,6 +147,17 @@ a:hover {
     border-radius: 0.8rem;
     border: 2.5px solid #e1e1e1;
     opacity: 0;
+}
+.Indexpost-title{
+    text-align: center;
+    display: inherit;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgb(255 255 255);
+    padding-bottom: 4rem;
+    position: relative;
+    top: 20rem;
 }
 .daohang5{
     background-color: white;
@@ -308,7 +319,7 @@ header h1 {
     width: 100%;
     /*  height:1000px ; */
      padding: 0 10% 0 8%;
-    margin-top: -25px;
+    margin-top: 83px;
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-start;
@@ -411,16 +422,8 @@ footer .nav_top{
 
 
 .border-wid {
-    border-radius: 0.3rem;
-    /* border-style: solid; */
-    /* border-color: rgba(126, 126, 126, 0.329);
-    border-width: 1px; */
-    /* border-top: none;
-    border-left: none; */
-    /* box-shadow:  9px 9px 15px #cacaca,
-    -9px -9px 15px #fcfcfc; */
-    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
-    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 0.5rem;
 }
 
 .contact-h1 {
@@ -583,8 +586,7 @@ footer .nav_top{
     /* margin-left:30px ; */
     /* height: 1000px; */
     /* overflow: hidden; */
-    border-radius: 0.3rem;
-    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
+
 
 }
 
@@ -803,7 +805,7 @@ display:-webkit-box;
      position: relative;
     top: -45px;
     /* left: 8px; */
-    margin-top: -22.2rem;
+    margin-top: -20.2rem;
     font-size: 1.7rem;
     overflow: hidden;
     width: 45%;
@@ -1133,6 +1135,9 @@ hr {
 
 
 }
+.comments{
+    background: white;
+}
 .nextWide{
 display: flex;
     justify-content: space-around;
@@ -1194,7 +1199,7 @@ display: flex;
     width: 70rem;
     height: 20rem;
     backdrop-filter: blur(22px);
-    margin: 40px 80px !important;
+    margin: 19px 53px !important;
     background: #ffffff8f;
     transform: scale(1.2);
     box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
@@ -1203,7 +1208,7 @@ display: flex;
 
 
 .post-images img {
-    width: 23rem;
+    width: 25rem;
     height: 20rem;
     /* border-radius: 0.5rem; */
     object-fit: cover;

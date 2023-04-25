@@ -27,7 +27,7 @@ $commentLevelClass = $comments->levels > 0 ? ' comment-child' : ' comment-parent
 
 
 <?php } ?>
-<div class="comments">
+<div class="comments border-wid">
     <div id="comments-padding">
         <h4 style="margin-left:2rem;"><?php $this->commentsNum(_t('comments'), _t('comments'), _t('comments')); ?></h4>
         <?php $this->comments()->to($comments); ?>

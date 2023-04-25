@@ -89,8 +89,6 @@ function themeConfig($logo)
     $logocontactb = new Typecho_Widget_Helper_Form_Element_Text('logocontactb', NULL, _t('https://cdn.jsdelivr.net/gh/qine233/jsdever-ty/bg.jpg'), _t('主页半屏背景图'), _t('在这里填入你的背景图链接，建议引用外部图床节省网站所在服务器带宽'));
     $logo->addInput($logocontactb);
 
-    $logocontactbBFB = new Typecho_Widget_Helper_Form_Element_Text('logocontactbBFB', NULL, NULL, _t('主页半屏背景图的屏占比'), _t('这里仅提供两档，输入1即开启短背景不输入即默认大屏'));
-    $logo->addInput($logocontactbBFB);
 
     $logoFooter = new Typecho_Widget_Helper_Form_Element_Textarea('logoFooter', NULL, NULL, _t('站点底部版权填写区域，后续会考虑将footer区域拉高，增加更多可自定义内容'), _t('在这里填入你的站点底部代码，例如备案链接等'));
     $logo->addInput($logoFooter);

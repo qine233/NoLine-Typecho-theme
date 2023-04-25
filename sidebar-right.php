@@ -1,4 +1,4 @@
-<div class="sidebar-right">
+<div class="sidebar-right border-wid">
 <div class="sidebar-r">
 <div class="sidebar-r-top">
     <div class="site-search">

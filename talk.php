@@ -16,7 +16,7 @@
         <!-- <div class="content-list"> -->
 
 
-        <div class="content-list-post">
+        <div class="content-list-post border-wid">
 
             <div id="comments-padding-talk">
                 <div class="typecho-header">
@@ -87,7 +87,7 @@
 
 </div>
 
-</div>
+</div></div>
 
 <?php $this->need('public/footer.php'); ?>
 </div>

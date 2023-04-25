@@ -15,7 +15,7 @@
 
 
         <div class="typecho-user-text">
-             <div class="content-list-post">
+             <div class="content-list-post border-wid">
                  <!-- 下面text部分 -->
 		<div class="typecho-text text-tream " >
 
