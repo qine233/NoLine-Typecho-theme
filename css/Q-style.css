@@ -1198,6 +1198,7 @@ display: flex;
     width: 70rem;
     height: 20rem;
     backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(16px);
     margin: 19px 53px !important;
     background: #ffffff8f;
     transform: scale(1.2);
