@@ -5,7 +5,7 @@
 ![...](https://cloud.idkzr.com/f/YWh1/mb.jpg)
  ![.....](https://img.shields.io/github/downloads/qine233/NoLine-Typecho-theme/total.svg?style=flat-square)
  ![.....](https://img.shields.io/github/v/release/qine233/NoLine-Typecho-theme.svg?style=flat-square)
-### 注意！使用前务必设置好主页背景图！再根据背景图颜色填写你需要的导航栏字体色
+### 注意！使用前务必设置好主页背景图！
 ### 主题文件夹务必命名为Noline
 #### 是我第一次学习前端基础不久创作的一款主题 , 在release内可以看到近期更新日志
 #### 主题预览：https://www.idkzr.com/   默认分支即为最新分支！
