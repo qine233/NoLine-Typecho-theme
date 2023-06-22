@@ -251,7 +251,7 @@ header h1 {
 .contact .name-talk {
     text-align: center;
     font-weight: 100;
-    font-size: 5px;
+    font-size: 12px;
     color: #c6c6c6;
     border-top: 1px solid #dbdbdb4f;
     padding-top: 2px;
@@ -421,7 +421,7 @@ footer .nav_top{
 
 
 .border-wid {
-    border: 1px solid rgba(0, 0, 0, 0.175);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
     border-radius: 0.5rem;
 }
 
@@ -562,9 +562,9 @@ footer .nav_top{
 .typecho-time {
     margin-top: 0.6rem;
     margin-left: 6px;
-    background-color: rgb(72 119 228);
-    color: rgb(255, 255, 255);
-    border-radius: 0.5rem;
+    background-color: rgb(17 44 107 / 78%);
+    color: rgb(243 249 255);
+     border-radius: 0.1rem;
     display: inline-block;
     font-size: 0.9rem;
     padding: 1px 5px 1px 5px;
@@ -758,17 +758,6 @@ footer .nav_top{
     position: relative;
     top: -36px;
     z-index: 2;
-}
-
-.post_index-more_cate{
-    padding: 0 10px;
-    border-radius: 1.2rem;
-    background: #d2d2d2;
-    color: #696969;
-    position: relative;
-    top: -49px;
-    left: 86%;
-    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
 }
 
 /* .content .entry_text li{
@@ -1197,10 +1186,10 @@ display: flex;
 .post-images {
     width: 70rem;
     height: 20rem;
-    backdrop-filter: blur(22px);
-    -webkit-backdrop-filter: blur(16px);
-    margin: 19px 53px !important;
-    background: #ffffff8f;
+    backdrop-filter: blur(350px);
+    -webkit-backdrop-filter: blur(350px);
+    margin: 15px 54px !important;
+    background: #ffffff;
     transform: scale(1.2);
     box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
     overflow: hidden;

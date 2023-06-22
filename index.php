@@ -50,7 +50,7 @@
         <div class="content-list">
             <?php while ($this->next()): ?>
                 <div class="post-list">
-                <div class="post" style="background: url(<?php  preg_match_all("/\<img.*?src\=(\'|\")(.*?)(\'|\")[^>]*>/i", $this->content, $matches);   $imgCount = count($matches[0]); if ($imgCount >= 1) { $img = $matches[2][0];} else { $img = "/usr/themes/Noline/nbg2.jpg";}; $CCimg = "{$img}"; echo $CCimg; ?>);
+                <div class="post" style="
                     object-fit: cover;
                     background-position-x: center;
                     background-position-y: center;
@@ -80,7 +80,7 @@
                 </div>
                 <span class="post_index-more"> <?php $this->date('Y年n月d日'); ?></span>
 
-                <span class="post_index-more_cate">  <?php $this->commentsNum('%d 评论'); ?></span>  </div>
+                </div>
             <?php endwhile; ?>
 
         </div>

@@ -5,7 +5,7 @@ ny/* Make clicks pass-through */
 
 #nprogress .bar {
     /*background: #29d;*/
-    background: linear-gradient(64deg, #71c2f1, #7d58d3, #e73c7ee7);
+    background: linear-gradient(64deg, #71c2f1, #c75050, #e73c7ee7);
     position: fixed;
     z-index: 1031;
     top: 0;

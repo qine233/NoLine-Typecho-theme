@@ -64,7 +64,7 @@
 
     .content {
         margin-top: 0.5rem;
-
+        margin-top: 13.5rem;
 
         width: 100% !important;
 
@@ -128,18 +128,17 @@
         height: 1000px;
     }
 .post_index-more{
-    /*top: -22px;*/
+    top: -57px;
 }
-.post_index-more_cate{
-    left: 79%;
-    top: -56px;
-}
+
     .closebtn {
         width: 5rem;
         margin-top: 10rem;
     }
     .content .post{
-        /*height: 25.7rem;*/
+        background: #ffffff00;
+        box-shadow: none;
+        border-radius: 0.1rem;
     }
     .content  .entry_title {
         position: relative;
@@ -184,8 +183,10 @@ width: 10rem;
         top: unset !important;
         }
 .post-images {
-    margin: 32px 39px !important;
+    background: #fff;
+    margin: -2px 0 50px 0 !important;
     height: 15rem;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
 }
         .content .entry_data li {
             /*display: inline;*/

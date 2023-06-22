@@ -80,9 +80,6 @@ function themeConfig($logo)
     $logobg = new Typecho_Widget_Helper_Form_Element_Text('logobg', NULL, NULL, _t('座右铭'), _t('在这里填入你的座右铭，建议简短，10字内'));
     $logo->addInput($logobg);
 
-    $logoLine = new Typecho_Widget_Helper_Form_Element_Text('logoLine', NULL, NULL, _t('导航栏字体颜色'), _t('在这里填入颜色代码，建议：鲜艳的颜色用白色#ffffff，或者黑色#000000，根据自身搭配填写'));
-    $logo->addInput($logoLine);
-
     $logocontacta = new Typecho_Widget_Helper_Form_Element_Text('logocontacta', NULL, NULL, _t('关注按钮对应链接'), _t('在这里填入你的github链接或其他社交平台链接'));
     $logo->addInput($logocontacta);
 
