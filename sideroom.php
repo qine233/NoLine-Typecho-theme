@@ -1,6 +1,10 @@
 
 <div class="sideroom" id="sideroom">
-<div class="bg_color-sideroom">
+<div class="bg_color-sideroom" style="background: url(<?php $this->options->logobgcolor(); ?>);
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+        object-fit: cover;">
 <img class="alaver-img" src="<?php $this->options->logoCss(); ?>">
  <h1 class="name"><?php $this->options->logoName(); ?></h1>
  <h1 class="name-talk"><?php $this->options->logobg(); ?></h1>

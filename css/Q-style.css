@@ -217,8 +217,6 @@ header h1 {
     font-family: 'Noto Serif SC', serif;
     color: #fff;
     background: linear-gradient(91deg, #0990df3d, #4164c75c, #993ce72e);
-    /* background-size: 400% 400%; */
-    /* border-radius: 0.8rem; */
     border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem;
 }
@@ -1186,8 +1184,6 @@ display: flex;
 .post-images {
     width: 70rem;
     height: 20rem;
-    backdrop-filter: blur(350px);
-    -webkit-backdrop-filter: blur(350px);
     margin: 15px 54px !important;
     background: #ffffff;
     transform: scale(1.2);

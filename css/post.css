@@ -132,7 +132,7 @@
 }
 
 .submit-alone:hover {
-    border-radius: 50%;
+    border-radius: 1.2rem;
 }
 
 /* 针对表单进行布局尝试 */

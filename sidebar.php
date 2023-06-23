@@ -1,6 +1,10 @@
   <div class="content-last">
   <div class="contact border-wid">
-    <div class="bg_color">
+    <div class="bg_color" style="background: url(<?php $this->options->logobgcolor(); ?>);
+            background-position-x: center;
+            background-position-y: center;
+            background-size: cover;
+            object-fit: cover;">
   <!-- <h1 class="contact-h1">#社交频道</h1> -->
   <img class="logo" src="<?php $this->options->logoCss(); ?>">
             <h1 class="name"><?php $this->options->logoName(); ?></h1></div>

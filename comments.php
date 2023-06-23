@@ -48,12 +48,8 @@ $commentLevelClass = $comments->levels > 0 ? ' comment-child' : ' comment-parent
                         <input type="text"  placeholder="昵称(*)" name="author" class="text"  value="<?php $this->remember('author'); ?>" />
                         <input type="text" name="mail" class="text" placeholder="邮箱(*)"  value="<?php $this->remember('mail'); ?>" />
                         <input type="text" name="url" class="text" placeholder="网址"  value="<?php $this->remember('url'); ?>" />
-
+                        <button type="submit" class="submit-alone"><?php _e('发表'); ?></button>
                     </div>
-
-
-                 <div class="rechap">  <?php spam_protection_math();?></div>
-                    <button type="submit" class="submit-alone"><?php _e('发表'); ?></button>
                     <div class="talk-content">
                     </div>
                    </div><?php endif; ?>
