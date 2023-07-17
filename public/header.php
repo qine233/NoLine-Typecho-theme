@@ -53,6 +53,7 @@
             var oBtn2 = document.getElementById("sideroom-blur");
             var oBtn = document.getElementById("box_hover");
             var oBox = document.getElementById("sideroom");
+
             var backBFB = document.getElementById("background-img");
             var adminBFB = '<?php $this->options->logocontactbBFB(); ?>' ;
 
@@ -96,6 +97,8 @@
 
         }
         window.onscroll = function() {
+            var Ncolor = document.getElementById("nevColor");
+            var NcolorTWO = document.getElementById("nav_menu");
             let percentage = document.getElementById('percentage');
             let totalH = document.body.scrollHeight || document.documentElement.scrollHeight;
             let clientH = window.innerHeight || document.documentElement.clientHeight;
@@ -111,9 +114,14 @@
             }
             $('#percentage').on('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
             $(document).on('scroll', function () {
-                if ($(document).scrollTop() <= 150) {
+                if ($(document).scrollTop() <= 170) {
+                    Ncolor.style.cssText= "color:#ffffff;";
+                    NcolorTWO.style.cssText= "color:#ffffff;";
                     $('.header').addClass('nobg').removeClass('hasbg');
+
                 } else {
+                    Ncolor.style.cssText= "color:#000000;";
+                    NcolorTWO.style.cssText= "color:#000000;";
                     $('.header').removeClass('nobg p1').addClass('hasbg');
                 }
             });
@@ -123,12 +131,12 @@
 </head>
 <body>
 <div class="background-img" id="background-img" style="background-image: url('<?php $this->options->logocontactb(); ?>')">
-<header class="header " style="color: <?php $this->options->logoLine(); ?>">
+<header class="header " >
     <div class="header-wide">
         <div id="box_hover" ><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
 
         <h1>
-            <a style="color: #ffffff" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>
+            <a id="nevColor" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>
 
         </h1>
 
@@ -136,7 +144,7 @@
 
 
             <?php $this->widget('Widget_Contents_Page_List')
-                ->parse('<li><a style="color: #ffffff" href="{permalink}">{title}</a></li>'); ?>
+                ->parse('<li><a id="nevColorTWO" style="color: inherit" href="{permalink}">{title}</a></li>'); ?>
         </ul></div>
 
 </header>

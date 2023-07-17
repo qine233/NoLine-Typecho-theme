@@ -113,7 +113,7 @@ a:hover {
     transition-duration: 0.35s;
     transition-timing-function: linear;
     transition-delay: 0s;
-    background-color: rgb(141 141 141 / 38%) !important;
+    background-color: rgb(255 255 255 / 60%) !important;
 }
 .header-wide{
     /*backdrop-filter: none;*/
@@ -121,7 +121,7 @@ a:hover {
 #nav_menu {
     display: inline-flex;
     margin-left:12rem ;
-
+    color: #ffffff;
 }
 #nav_menu ul{padding-top: 1rem;
 }
@@ -204,7 +204,7 @@ header h1 {
 
 .header a {
 
-    color: rgb(0, 0, 0);
+    color: rgb(255 255 255);
     text-decoration: none;
 
 }

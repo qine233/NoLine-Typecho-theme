@@ -80,7 +80,8 @@
 .pagination>li>a, .pagination>li>span {
     position: relative;
     float: left;
-    padding: 6px 12px;
+    /*padding: 6px 12px;*/
+    padding: 10px 12px;
     margin-left: -1px;
     line-height: 1.42857143;
     color: #337ab7;
