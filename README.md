@@ -5,8 +5,9 @@
 ![...](https://cloud.idkzr.com/f/YWh1/mb.jpg)
  ![.....](https://img.shields.io/github/downloads/qine233/NoLine-Typecho-theme/total.svg?style=flat-square)
  ![.....](https://img.shields.io/github/v/release/qine233/NoLine-Typecho-theme.svg?style=flat-square)
-### 注意！使用前务必设置好主页背景图！
-### 主题文件夹务必命名为Noline , 在release内可以看到近期更新日志；主题预览：https://www.idkzr.com/   默认分支即为最新分支！
+#### 注意！本主题不提供壁纸，需自行在主题设置中配置链接
+#### 主题文件夹务必命名为Noline , 在release内可以看到近期更新日志
+#### 主题预览：https://www.idkzr.com/
 #
 #### 关于使用名称为 时光的 自定义页面，需要在后台中关闭评论反垃圾！！
 ##### 并且开启如下评论设置：
