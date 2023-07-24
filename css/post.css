@@ -515,10 +515,10 @@ pre, article pre {
     font-size: 18px;
 }
 .post-list-item .item-title a{
-    color: white !important;
+    color: #000000 !important;
 }
 .post-list-item a {
-    color: #fff;
+    color: #000000;
     border-bottom: 0px solid #00000070;
 }
 
@@ -529,8 +529,9 @@ pre, article pre {
     padding: 0;
     border-radius: 3px;
     background-color: #fff;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .04);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .04);
+    -webkit-box-shadow:  0 4px 10px rgb(0 0 0 / 9%), 0 0 1px rgb(0 0 0 / 11%);
+    box-shadow:0 4px 10px rgb(0 0 0 / 9%), 0 0 1px rgb(0 0 0 / 11%);
+    border-radius: 0.5rem;
 }
 
 .post-list-item-container .item-label {
@@ -556,10 +557,10 @@ pre, article pre {
 .post-list-item-container .item-label .item-meta .item-meta-ico {
     display: inline-block;
     float: right;
-    width: 42px;
-    height: 42px;
+    width: 45px;
+    height: 45px;
     border: 1px solid #eaeaea;
-    border-radius: 50%;
+    border-radius: 0.5rem;
 }
 
 .post-list-item-container .item-label.bg-purple .item-meta .item-meta-date {
@@ -573,7 +574,7 @@ pre, article pre {
     padding-left: 5px;
     text-align: left;
     text-transform: none;
-    color: #f1f1f1;
+    color: #000000;
     max-width: 75%;
 }
 #comment_list_talk{
@@ -582,37 +583,6 @@ pre, article pre {
     padding: 0 3.8%;
     border-radius: 1.5rem;
     min-height: 4rem;
-}
-.bg-purple {
-    background-color: #bc99c4 !important;
-}
-
-.bg-yellow {
-    background-color: #f9bb3c !important;
-}
-
-.bg-orange {
-    background-color: #f68e5f !important;
-}
-
-.bg-red {
-    background-color: #e8583d !important;
-}
-
-.bg-green {
-    background-color: #46c47c !important;
-}
-
-.bg-blue {
-    background-color: #6fa3ef !important;
-}
-
-.bg-grey {
-    background-color: #f7f7f7 !important;
-}
-
-.bg-deepgrey {
-    background-color: rgba(0, 0, 0, .5) !important;
 }
 
 .bg-white {

@@ -41,10 +41,10 @@
                 let nsl = ns.length;
                 let str ='<div class="post-lists"><div class="post-lists-body" id ="flinksH">';
                 let bgid = 0;
-                const bgs =["bg-blue","bg-purple","bg-green","bg-yellow","bg-red","bg-orange"];
+                const bgs =["bg-white"];
                 for(let i = 0;i<=nsl-4;i+=4){
                     bgid = Math.floor(Math.random() * 6);
-                    str += (`<div class="post-list-item"><div class="post-list-item-container "><div class="item-label ${bgs[bgid]}"><div class="item-title"><a target="_blank" href="${ns[i+1].innerText}">${ns[i].innerText}</a></div><div class="item-meta clearfix"><div class="item-meta-ico bg-ico-book"style="background: url(${ns[i+2].innerText}) no-repeat;background-size: 40px auto;"></div><div class="item-meta-date">${ns[i+3].innerText}</div></div></div></div></div>`);
+                    str += (`<div class="post-list-item"><div class="post-list-item-container "><div class="item-label ${bgs[bgid]}"><div class="item-title"><a target="_blank" href="${ns[i+1].innerText}">${ns[i].innerText}</a></div><div class="item-meta clearfix"><div class="item-meta-ico bg-ico-book"style="background: url(${ns[i+2].innerText}) no-repeat;background-size: 45px auto;"></div><div class="item-meta-date">${ns[i+3].innerText}</div></div></div></div></div>`);
                 }
                 str+='</div></div><style></style>';
                 let n1 = document.createElement("div");

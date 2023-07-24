@@ -400,7 +400,7 @@ footer .nav_top{
     right: 5rem;
     bottom: 15rem;
     box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding-top: 0.7rem;
 }
 .mac {
@@ -1108,12 +1108,13 @@ hr {
 }
 
 .post-title {
-    text-align: center;
+    /*text-align: center;*/
     height: 3rem;
     font-weight: 600;
     font-size: 2.1rem;
     color: #0000009c;
     padding-bottom: 4rem;
+    border-bottom: solid 1px #dee2e6;
 }
 
 .site-search {
@@ -1125,12 +1126,13 @@ hr {
     background: white;
 }
 .nextWide{
-display: flex;
+    display: flex;
     justify-content: space-around;
     margin-left: 2rem;
     background: #ffffff;
     border-radius: 2.6rem;
     box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
+    border-radius: 0.5rem;
 }
 .nextWide .next{
     /*background: #8596ae;*/
