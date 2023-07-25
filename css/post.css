@@ -41,10 +41,6 @@
 }
 
 .comments {
-
-
-    /* height: 500px; */
-    /* margin-left: 9.5rem; */
     margin-top: 1rem;
 
     padding: 1rem 0rem 1rem 1rem;
@@ -54,8 +50,6 @@
 
 
 #comments-padding {
-
-    /*padding-top: 0.2rem;*/
     margin-left: -1rem;
 
     background-color: white;
@@ -80,7 +74,6 @@
 .pagination>li>a, .pagination>li>span {
     position: relative;
     float: left;
-    /*padding: 6px 12px;*/
     padding: 10px 12px;
     margin-left: -1px;
     line-height: 1.42857143;
@@ -115,25 +108,19 @@
     margin-left: 6;
 }
 .submit-alone {
-    /* top: 21rem; */
-    /* border-style: none; */
-    height: 3.2rem;
-    color: white;
-
-    border-radius: 0.6rem;
-    background-color: #4482e5;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    background-color: #4a5972;
     color: #fff;
     border: none;
-    /* background: #448bff linear-gradient(45deg,#448bff,#44e9ff); */
     padding-top: 6px;
     padding-bottom: 6px;
-    margin-top: 1.4rem;
-    margin-left: 1rem;
+    margin-top: 1.25rem;
     transition: all .2s ease;
 }
 
 .submit-alone:hover {
-    border-radius: 1.2rem;
+    border-radius: 0.2rem;
 }
 
 /* 针对表单进行布局尝试 */
@@ -175,7 +162,7 @@
 
 
 .comments-3-text .text:hover {
-    border-color: #4c92fb;
+    border-color: #8a8e94;
     border-width: 1px;
 }
 
@@ -205,7 +192,10 @@
 }
 
 .submit a {
-    color: #3b81f7;
+    color: #ffffff;
+    background: #748195;
+    padding: 0px 5px 1px 5px;
+    border-radius: 0.2rem;
 
 }
 
@@ -241,7 +231,7 @@ input {
 }
 
 #textarea:focus {
-    border-color: #4c92fb;
+    border-color: #96999f;
     border-width: 1px;
 }
 
@@ -442,7 +432,7 @@ pre, article pre {
     background: #161616;
     position: relative;
     padding-top: 30px;
-    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 40%);
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 21%);
     min-height: auto !important;
 }
 
@@ -450,21 +440,21 @@ pre, article pre {
     padding-left: 1.7rem;
     line-height: 3rem;
     list-style: none;
-    border-left: 1.5px solid #55a7ff;
+    border-left: 1.5px solid #00000029;
 }
 
 #archives li::before {
     content: '';
     width: 14px;
     height: 14px;
-    background: #0d6efd;
+    /*background: #5c9af5;*/
     display: inline-block;
     vertical-align: middle;
     margin-top: -2px;
     margin-right: 11px;
     margin-left: -25px;
     border-radius: 100%;
-    border: 3px solid #c0dcff;
+    /*border: 3px solid #a0caff;*/
     z-index: 1;
     position: relative;
 }
@@ -491,10 +481,13 @@ pre, article pre {
 #cancel-comment-reply-link {
     display: block;
     width: 6rem;
-    background: #298cff;
-    color: white;
     text-align: center;
     margin-left: 2rem;
+    border-radius: 0.2rem;
+    color: #ffffff;
+    background: #748195;
+    padding: 0px 5px 1px 5px;
+    border-radius: 0.2rem;
 }
 
 .post-lists {

@@ -413,16 +413,14 @@ margin-left: 0;
         /* display: none; */
         /* top: 21rem; */
         /* border-style: none; */
-        height: 3.2rem;
-        color: white;
-        border-radius: 0.6rem;
-        background-color: #4482e5;
+        height: 3.5rem;
+        border-radius: 0.5rem;
+        background-color: #4a5972;
         color: #fff;
         border: none;
-        /* background: #448bff linear-gradient(45deg,#448bff,#44e9ff); */
         padding-top: 6px;
         padding-bottom: 6px;
-        margin-top: 1rem;
+        margin-top: 1.25rem;
         width: 100%;
         transition: all .2s ease;
     }

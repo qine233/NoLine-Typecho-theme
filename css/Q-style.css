@@ -1021,9 +1021,9 @@ margin-left: -4rem;
     text-align: center;}
 
 .footer a{
-    color: #0d6efd !important;
+    color: #274057f2 !important;
 }
-code {
+pre code {
     height: auto;
     min-height: none;
     /*background-color: #70c8d8;*/
@@ -1032,10 +1032,17 @@ code {
     font-weight: 400;
     font-family: 'Noto Serif SC', serif;
     font-size: 1.4rem;
+    line-height: 1.6;
+}
+code {
+    border-radius: 0.5rem !important;
+    background-color: #fff5f5;
+    color: #ff502c !important;
 }
 
-
-
+.hljs{
+    color: #dcdcdc !IMPORTANT;
+}
 /*blockquote {*/
 
 /*    display: block;*/
@@ -1052,7 +1059,7 @@ code {
 /*}*/
 
 pre {
-    background-color: white !important;
+    background-color: #484a5c !important;
     border: none !important;
 }
 
@@ -1234,7 +1241,7 @@ hr {
 .sibar-data-a li {
     list-style: none;
     /* display: inline; */
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
      text-align: center;
     width: 4rem;
