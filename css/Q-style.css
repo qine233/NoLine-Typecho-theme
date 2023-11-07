@@ -178,16 +178,16 @@ a:hover {
 .post_index-more{
     display: block;
     background: #9cd2ff3b;
-    padding: 0 5;
-    margin-left: 5%;
+    padding: 1 5;
+    margin-left: 8%;
     position: relative;
     top: -35px;
     color: #2b4764a1;
     border-radius: 1.8rem;
     backdrop-filter: blur(16px);
-    max-width: 10rem;
+    max-width: 15rem;
     text-align: center;
-    box-shadow: 0 4px 10px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 10%);
+    box-shadow: 0 4px 10px rgb(26 72 162 / 17%), 0 0 1px rgb(42 78 244 / 40%);
 }
 .post_index-more a{
     color: white  !important;
