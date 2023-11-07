@@ -128,7 +128,19 @@
         height: 1000px;
     }
 .post_index-more{
+        display: block;
+    background: #9cd2ff3b;
+    padding: 1 5;
+    margin-left: 8%;
+    position: relative;
     top: -57px;
+    color: #2b4764a1;
+    border-radius: 1.8rem;
+    backdrop-filter: blur(16px);
+    max-width: 11rem;
+    text-align: center;
+    font-size: 10px !important;
+    box-shadow: 0 4px 10px rgb(26 72 162 / 17%), 0 0 1px rgb(42 78 244 / 40%);
 }
 
     .closebtn {
