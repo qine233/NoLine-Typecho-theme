@@ -88,7 +88,7 @@
     <div class="nextWide">
         <?php $this->pageLink('点击查看更多','next'); ?>
     </div></div>
-    <?php $this->need('sidebar-right.php'); ?>
+<!--   <?php //$this->need('sidebar-right.php'); ?> -->
 </div>
 </div><?php $this->need('public/footer.php'); ?>
 </div>
