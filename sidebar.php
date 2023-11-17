@@ -1,5 +1,6 @@
   <div class="content-last">
   <div class="contact border-wid">
+      <h2 class="name-talk"><?php $this->options->logobg(); ?></h2>
     <div class="bg_color" style="background: url(<?php $this->options->logobgcolor(); ?>);
             background-position-x: center;
             background-position-y: center;
@@ -19,7 +20,7 @@
             <ul class="sibar-data-a-ul"><li><?php $stat->publishedCommentsNum() ?></li><li>评论数</li></ul>
             </div>
 
-<h2 class="name-talk"><?php $this->options->logobg(); ?></h2>
+
 </div>
 <div class="sibar-all">
 <div class="sibar-data border-wid" >
